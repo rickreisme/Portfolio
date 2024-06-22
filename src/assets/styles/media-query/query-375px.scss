@@ -1,0 +1,22 @@
+@media screen and (max-width: 375px) {
+    @import "../vars.scss";
+
+    .box-projeto{
+        max-width: 70%;
+    }
+
+    .colunaE h3{
+        max-width: 85%;
+    }
+
+    .sociais {
+        display: flex;
+        max-width: 70%;
+        border-radius: 30px;
+        padding-bottom: 10px;
+    
+        h3 {
+          font-size: 17px;
+        }
+      }
+}

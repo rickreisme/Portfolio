@@ -1,0 +1,17 @@
+@import "./vars.scss";
+
+footer {
+  padding-top: 200px;
+  margin-bottom: 15px;
+}
+
+footer h3 {
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer span {
+  color: $verde-principal;
+}

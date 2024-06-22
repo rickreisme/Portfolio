@@ -1,0 +1,195 @@
+@import "./vars.scss";
+@import "./animations.scss";
+
+.contato {
+  padding: 150px 0 200px 0;
+}
+
+.contato span {
+  color: $verde-principal;
+}
+
+.contato h2 {
+  color: $verde-secundario;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.colunas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10%;
+  align-items: center;
+}
+
+.colunaE {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.colunaE h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.estou {
+  max-width: 100%;
+}
+
+.colunaM {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.colunaM h3 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  text-align: center;
+}
+
+.colunaD {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.btn6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 19.5px;
+  background: $verde-quaternario;
+  box-shadow: 0px 4px 1px 0px #fff;
+  cursor: pointer;
+  transition: color 0.5s ease, $transicao-botao-hover;
+  text-decoration: none;
+}
+
+.btn6 h4 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  transition: color 0.5s ease;
+}
+
+.btn6:hover {
+  border-radius: 19.5px;
+  background-color: #1ee61e;
+  box-shadow: 0px 3px 1px 0px #fff;
+}
+
+.btn6:hover h4 {
+  color: $verde-darkL;
+  font-weight: 600;
+}
+
+.sociais {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 460px;
+  height: 150px;
+  border-radius: 43px;
+  background: $verde-secundario;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  animation: appear3 forwards;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+  overflow: hidden;
+}
+
+.sociais::before {
+  content: "";
+  position: absolute;
+  background-color: #4dff00;
+  width: 480px;
+  height: 150px;
+  border-radius: 50px;
+  animation: barra 6s linear infinite normal none running;
+}
+
+.sociais::after {
+  content: "";
+  position: absolute;
+  background: $verde-quaternario;
+  inset: 4px;
+  border-radius: 43px;
+}
+
+.sociais h3 {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 1;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  gap: 40px;
+}
+
+.redes a {
+  z-index: 1;
+
+  i {
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 0.3s ease-in-out;
+  }
+
+  i:hover {
+    font-size: 3.5rem;
+  }
+}
+
+#gith,
+#linkd,
+#beh,
+#linkk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#avaRick {
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+}
