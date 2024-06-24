@@ -14,7 +14,7 @@ const Sobre = () => {
                     <h2 className="h2s">&#123;rickreisme&#47;<span>sobre</span>&#125;</h2>
 
                     <a className='btn' href="https://flowcv.com/resume/di16gfcff3" target="_blank">
-                        <RiExternalLinkFill className="link-icon"/>
+                        <RiExternalLinkFill className="link-icon" />
                         <h2>Ver currículo</h2>
                     </a>
                 </div>
@@ -22,21 +22,18 @@ const Sobre = () => {
                 <div className="paragrafo">
                     <h1><span>Sobre Mim</span></h1><br />
                     <p>
-                        Sempre gostei de tecnologia, mas foi quando ingressei no curso de
+                        Sempre gostei de tecnologia desde criança, mas foi quando ingressei no curso de
                         Análise e Desenvolvimento de Sistemas, que o meu interesse pela programação
                         surgiu.<br />
-                        Possuo <span>inglês avançado</span> e tenho experiência em <span>HTML</span>, <span>CSS</span> e 
-                        <span>JavaScript</span>, habilidades
-                        intermediárias em <span>SQL</span>
-                        (<span>PostgreSQL</span>, <span>Oracle</span>), <span>Git/GitHub</span>, skills em <span>ASP.NET Core</span>,
-                        <span>Docker</span>,
-                        <span>React.js</span>, <span>Python</span>, <span>Flutter</span> e <span>Firebase</span> e <span>Inglês
-                            avançado</span>.<br />
+                        Possuo <span>inglês avançado</span> e tenho experiência em <span>HTML</span>, <span>CSS</span>,
+                        <span> JavaScript</span>, <span>Git/GitHub</span> e <span>React.js</span> além de um bom domínio de
+                        <span> SQL</span> (<span>PostgreSQL</span>, <span>Oracle</span>), <span>Docker</span>, <span>API REST </span>,
+                        <span> Axios</span>, <span>Bootstrap</span>, <span>ASP.NET Core</span>, <span>Python</span>, <span>Flutter </span>
+                        e <span>Firebase</span>.<br />
                         Tenho muita <span>vontade de aprender</span> e sou um <span>aprendiz rápido</span> com facilidade em
-                        <span>resolução de problemas</span>
-                        e <span>organização</span>.<br /> Gosto de aperfeiçoar minhas habilidades por meio de <span>prática e estudo
-                            constantes</span>, com criatividade,
-                        <span>colaboração</span>, respeitando a <span>ética profissional</span>.
+                        <span> resolução de problemas </span> e <span>organização</span>.<br />
+                        Gosto de aperfeiçoar minhas habilidades por meio de <span>prática e estudo constantes</span>, com
+                        <span> criatividade</span>, <span> colaboração</span>, respeitando sempre a <span>ética profissional</span>.
                     </p>
                 </div>
             </div>
