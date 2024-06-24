@@ -86,7 +86,7 @@ const MobileNavbarEnglish: React.FC = () => {
           <li>
             <Link to="/" >
               <a id='link-pags' className='btn-english'>
-                <span>&lt;Ver em portugûes/&gt;</span>
+                <span>&lt;Ver em português/&gt;</span>
               </a>
             </Link>
           </li>
