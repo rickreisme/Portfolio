@@ -14,7 +14,7 @@ import AppEnglish from './AppEnglish';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/Portfolio'>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/english" element={<AppEnglish />} />
