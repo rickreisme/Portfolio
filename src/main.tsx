@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import "./assets/styles/global.scss"
 import "./assets/styles/media-query/query1085px.scss"
