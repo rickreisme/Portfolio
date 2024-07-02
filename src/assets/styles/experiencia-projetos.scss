@@ -131,197 +131,84 @@
 
   .projetos {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
     padding-bottom: 45px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
-    .box-projeto {
-      position: relative;
-      width: 370px;
-      height: 500px;
-      border-radius: 27px;
-      background: $verde-sete;
+    .link-projeto {
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-left: 15px;
-      padding: 0 15px;
+      width: 350px;
+      height: 430px;
+      position: relative;
+      background: $verde-sete;
+      border-radius: 30px;
       overflow: hidden;
+      transition: 0.3s ease-in-out;
 
-      h2 {
-        text-align: center;
-        color: #fff;
-        z-index: 1;
-      }
-
-      h4 {
-        z-index: 1;
-      }
-
-      h4 {
-        color: #fff;
-        text-align: center;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 10px;
-      }
-
-      p {
-        color: #fff;
-        max-height: 80px;
-        max-width: 360px;
-        text-align: center;
-        font-size: 15.5px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        padding-top: 20px;
-        z-index: 1;
-      }
-
-      .nome-projeto h2 {
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-
-      .img-projeto {
+      .box-projeto {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        z-index: 1;
+        padding: 0 2px;
+        flex-grow: 1;
+        flex-basis: 0;
 
-        .img_projeto {
-          width: 100%;
-          height: 200px;
-          max-width: 100%;
-          object-fit: cover;
-          border-radius: 15px;
-          animation: appear4 forwards;
-          animation-timeline: view();
-          animation-range: cover 0% cover 50%;
-        }
-      }
-
-      .botoes {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: center;
-        z-index: 1;
-
-        .botoesR {
-          display: flex;
-          justify-content: center;
+        .nome-projeto {
+          text-align: center;
+          color: #fff;
+          z-index: 1;
         }
 
-        .btn3 {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
-          width: 170px;
-          height: 42px;
-          border-radius: 30px;
-          background: white;
-          cursor: pointer;
-          transition: $transicao-botao-hover2;
-          text-decoration: none;
-
-          h2 {
-            color: $verde-oito;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 600;
-          }
-        }
-        .btn3:hover {
-          background: $verde-dark;
-        }
-        .btn3:hover h2 {
-          color: white;
+        h4 {
+          color: $verde-principal;
+          text-align: center;
+          font-size: 0.8rem;
+          max-width: 90%;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin-top: 5px;
+          z-index: 1;
         }
 
-        .btn3R {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          width: 190px;
-          height: 42px;
-          border-radius: 30px;
-          background: white;
-          cursor: pointer;
-          transition: $transicao-botao-hover2;
-          text-decoration: none;
-
-          h2 {
-            align-self: center;
-            color: $verde-oito;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 600;
-          }
-        }
-        .btn3R:hover {
-          background: $verde-dark;
-        }
-        .btn3R:hover h2 {
-          color: white;
-        }
-
-        .btn4 {
-          margin-left: 5px;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
-          width: 150px;
-          height: 42px;
-          border-radius: 30px;
-          background: white;
-          cursor: pointer;
-          transition: $transicao-botao-hover2;
-          text-decoration: none;
-
-          h2 {
-            color: $verde-oito;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            text-align: center;
-          }
-        }
-        .btn4:hover {
-          background: $verde-dark;
-        }
-        .btn4:hover h2 {
-          color: white;
+        p {
+          color: #fff;
+          max-height: 90px;
+          max-width: 90%;
+          text-align: center;
+          font-size: 15.5px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin-top: auto;
+          margin-bottom: auto;
+          z-index: 1;
         }
       }
     }
-    .box-projeto::before {
-      content: "";
-      position: absolute;
-      background-color: #fff;
-      width: 450px;
-      height: 440px;
-      border-radius: 30px;
-      animation: 10s linear 0s infinite normal none running barra;
-    }
-    .box-projeto::after {
-      content: "";
-      position: absolute;
-      background: $verde-darkL;
-      inset: 4px;
-      border-radius: 30px;
+    // .link-projeto::before {
+    //   content: "";
+    //   position: absolute;
+    //   background-color: #fff;
+    //   width: 450px;
+    //   height: 440px;
+    //   border-radius: 30px;
+    //   animation: 10s linear 0s infinite normal none running barra;
+    // }
+    // .link-projeto::after {
+    //   content: "";
+    //   position: absolute;
+    //   background: $verde-darkL;
+    //   inset: 4px;
+    //   border-radius: 30px;
+    // }
+    .link-projeto:hover {
+      background-color: $verde-principal;
+      transform: scale(1.03);
     }
   }
 
