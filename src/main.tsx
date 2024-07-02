@@ -14,7 +14,7 @@ import AppEnglish from './AppEnglish';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename='/Portfolio'>
       <Routes>
         <Route path="/Portfolio" element={<App />} />
         <Route path="/english" element={<AppEnglish />} />
