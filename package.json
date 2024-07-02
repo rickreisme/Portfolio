@@ -1,7 +1,7 @@
 {
-  "homepage": "https://rickreisme.github.io/Portfolio/",
+  "homepage": "https://rickreisme.github.io/Portfolio",
   "name": "portfolio",
-  "private": true,
+  "private": false,
   "version": "1.1.0",
   "type": "module",
   "scripts": {
