@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 
 import "./assets/styles/global.scss"
 import "./assets/styles/media-query/query1085px.scss"
@@ -14,11 +14,11 @@ import AppEnglish from './AppEnglish';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename='/'>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/english" element={<AppEnglish />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )
