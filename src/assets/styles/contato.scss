@@ -18,61 +18,25 @@
   line-height: normal;
 }
 
-.colunas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 10%;
-  align-items: center;
-}
 
-.colunaE {
+.colunaC {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 10px;
+  padding: 0 30px;
 }
 
-.colunaE h3 {
+.colunaC h3 {
   color: #fff;
   text-align: center;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
-
-.estou {
-  max-width: 100%;
-}
-
-.colunaM {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 10px;
-}
-
-.colunaM h3 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: #fff;
-  text-align: center;
-}
-
-.colunaD {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 10px;
+  max-width: 50%;
 }
 
 .btn6 {
@@ -153,6 +117,7 @@
   font-weight: 600;
   line-height: normal;
   z-index: 1;
+  padding: 0 5px;
 }
 
 .redes {
