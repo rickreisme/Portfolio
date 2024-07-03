@@ -1,6 +1,24 @@
 @media screen and (max-width: 400px) {
   @import "../vars.scss";
 
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    .paragrafro {
+      p {
+        font-size: 20px;
+      }
+
+      .btn{
+        max-width: 100%;
+      }
+    }
+  }
+
   .meus-projetos {
     .projetos {
       .link-projeto {
@@ -24,7 +42,7 @@
 
   .sociais {
     display: flex;
-    max-width: 70%;
+    max-width: 350px;
     border-radius: 30px;
     padding-bottom: 10px;
 

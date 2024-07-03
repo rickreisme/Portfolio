@@ -23,12 +23,12 @@
   }
 
   .intro h1,
-  .sobre h2,
-  .experiencia h2,
+  .sobre .sobre-titulo .h2s,
+  .experiencia .tituloxp,
   .meus-projetos h2,
   .contato h2,
   footer h3 {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .imagem-intro img,
@@ -36,8 +36,6 @@
   .box-projeto {
     width: 100%;
   }
-
-  .btn,
   .btn2,
   .btn3,
   .btn4,
@@ -131,175 +129,172 @@
     text-align: center;
   }
 
-  .imagem-intro img {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    padding-top: 20px;
-  }
+  .intro {
+    .imagem-intro {
+      border: none;
 
-  .sobre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
+      img {
+        display: flex;
+        width: auto;
+        height: 300px;
+        padding-top: 20px;
+      }
+    }
 
-  .imagem-sobre {
-    display: flex;
-    width: 230px;
-    height: 230px;
-    padding-top: 90px;
-    padding-bottom: 0;
-  }
-
-  .h2s {
-    padding-top: 10px;
-  }
-
-  .sobre-titulo {
-    padding-top: 0;
-  }
-
-  .sobre h1 {
-    font-size: 23px;
-  }
-
-  .sobre p {
-    font-size: 18px;
-  }
-
-  .btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .btn h2 {
-    font-size: 18px;
-  }
-
-  .experiencia {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .experiencia .tituloxp {
-    padding-top: 75px;
-    font-size: 22px;
-  }
-
-  .habilidades {
-    margin-bottom: 50px;
-  }
-
-  .btn2 {
-    margin-left: 0;
-    width: 60%;
-  }
-
-  .meus-projetos {
-    padding-top: 80px;
-
-    .projetos {
+    .sobre {
+      display: flex;
       flex-direction: column;
-      align-content: center;
       justify-content: center;
-  
-      .link-projeto {
-        max-width: 500px;
-        min-height: 350px;
-  
-        .box-projeto {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          padding: 0 2px;
-          flex-grow: 1;
-          flex-basis: 0;
-  
-          .nome-projeto {
-            font-size: 22px;
-            margin-top: 50px;
-          }
-  
-          p{
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-          }
-  
-          h4 {
-            max-width: 90%;
-          }
+      margin-left: 15%;
+      margin-right: 15%;
+
+      .paragrafro {
+        p {
+          font-size: 20px;
+          max-width: 70%;
+        }
+
+        .btn {
+          width: 100px;
         }
       }
-      .link-projeto::before{
-        max-width: 500px;
-        max-height: 400px;
+    }
+
+    .h2s {
+      padding-top: 10px;
+    }
+
+    .sobre-titulo {
+      padding-top: 0;
+    }
+
+    .sobre h1 {
+      font-size: 23px;
+    }
+
+    .btn h2 {
+      font-size: 18px;
+    }
+
+    .experiencia {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .tituloxp {
+        margin-top: 100px;
       }
-  
-      .btn5 {
-        font-size: 17px;
-        width: 60%;
+    }
+
+    .habilidades {
+      margin-bottom: 50px;
+    }
+
+    .btn2 {
+      margin-left: 0;
+      width: 60%;
+    }
+
+    .meus-projetos {
+      padding-top: 80px;
+
+      .projetos {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        .link-projeto {
+          max-width: 500px;
+          min-height: 350px;
+
+          .box-projeto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 2px;
+            flex-grow: 1;
+            flex-basis: 0;
+
+            .nome-projeto {
+              font-size: 22px;
+              margin-top: 50px;
+            }
+
+            p {
+              margin-top: 0 !important;
+              margin-bottom: 0 !important;
+            }
+
+            h4 {
+              max-width: 90%;
+            }
+          }
+        }
+        .link-projeto::before {
+          max-width: 500px;
+          max-height: 400px;
+        }
+
+        .btn5 {
+          font-size: 17px;
+          width: 60%;
+        }
       }
     }
-  }
 
-  .colunaC h3 {
-    max-width: 90%;
-  }
-
-  .sociais {
-    display: flex;
-    max-width: 85%;
-    border-radius: 30px;
-    padding-bottom: 10px;
-
-    h3 {
-      font-size: 17.5px;
-    }
-  }
-
-  .redes {
-    height: 50px;
-    gap: 25px;
-  }
-
-  .redes a {
-    z-index: 1;
-
-    i {
-      cursor: pointer;
-      font-size: 2.3rem;
-      transition: 0.3s ease-in-out;
+    .estou h3 {
+      max-width: 90%;
     }
 
-    i:hover {
-      font-size: 2.5rem;
+    .sociais {
+      display: flex;
+      max-width: 90%;
+      border-radius: 30px;
+      padding-bottom: 10px;
+
+      h3 {
+        font-size: 17.5px;
+      }
     }
-  }
 
-  .contato {
-    padding-top: 90px;
-  }
+    .redes {
+      height: 50px;
+      gap: 25px;
+    }
 
-  .contato br {
-    display: none;
-  }
+    .redes a {
+      z-index: 1;
 
-  footer {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
+      i {
+        cursor: pointer;
+        font-size: 2.3rem;
+        transition: 0.3s ease-in-out;
+      }
 
-  footer h3 {
-    font-size: 15px;
-    color: white;
-    font-weight: 600;
-    text-align: center;
+      i:hover {
+        font-size: 2.5rem;
+      }
+    }
+
+    .contato {
+      padding-top: 90px;
+    }
+
+    .contato br {
+      display: none;
+    }
+
+    footer {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    footer h3 {
+      font-size: 15px;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+    }
   }
 }

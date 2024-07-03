@@ -1,5 +1,5 @@
 import "../assets/styles/intro-sobre.scss"
-import imgIntro from "../assets/SVGs/Hand coding-amico.svg"
+import imgIntro from "../assets/Imagens/rick-sobre.jpeg"
 
 const Intro = () => {
     return (
