@@ -1,16 +1,17 @@
 @import "./vars.scss";
+@import "./animations.scss";
 
 .mobile-menu {
   display: none;
   cursor: pointer;
-}
 
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: white;
-  margin: 8px;
-  transition: 0.3s;
+  div {
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+    transition: 0.3s;
+  }
 }
 
 .menu {
@@ -25,47 +26,71 @@
   width: 100%;
   background-color: $bg-menu;
   backdrop-filter: blur(3px);
-}
 
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  row-gap: 3px;
-  height: 64px;
-  width: 100%;
-  position: fixed;
-}
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 3px;
+    height: 64px;
+    width: 100%;
+    position: fixed;
 
-#logo {
-  padding-top: 35px;
-  display: flex;
-  color: $verde-principal;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: 600;
-  justify-content: center;
-  align-items: center;
-  transition: color 0.5s ease;
-  margin-left: 5%;
-  margin-bottom: 20px;
-}
+    #logo {
+      display: flex;
+      color: $verde-principal;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 600;
+      justify-content: center;
+      align-items: center;
+      transition: color 0.5s ease;
+      margin-left: 5%;
 
-#logo:visited {
-  color: $verde-principal;
-}
+      .text:visited {
+        color: $verde-principal;
+      }
 
-#logo:hover {
-  color: white;
-}
+      .text:hover {
+        color: white;
+      }
 
-#logo > span {
-  color: $verde-secundario;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+      span {
+        color: $verde-secundario;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      .tag1 {
+        opacity: 0;
+        animation: moveRight 1s ease-in forwards 1s;
+      }
+
+      .tag2 {
+        opacity: 0;
+        animation: moveLeft 1s ease-in forwards 1s;
+      }
+
+      .text {
+        opacity: 0;
+        font-size: 25px;
+        animation: fadeIn 2s ease-in forwards 1s;
+      }
+    }
+
+    .paginas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      #link-pags {
+        margin-left: 18px;
+      }
+    }
+  }
 }
 
 header span {
@@ -76,19 +101,6 @@ header span {
   line-height: normal;
   transition: color 0.5s ease;
 }
-
 header span:hover {
   color: $verde-principal;
-}
-
-.paginas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 5%;
-  margin-top: 20px;
-}
-
-#link-pags {
-  margin-left: 18px;
 }
