@@ -1,0 +1,35 @@
+@media screen and (max-width: 400px) {
+  @import "../vars.scss";
+
+  .meus-projetos {
+    .projetos {
+      .link-projeto {
+        min-width: 200px;
+        min-height: 350px;
+
+        .box-projeto {
+          padding: 0 10px !important;
+
+          p {
+            font-size: 16px;
+          }
+
+          h4 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .sociais {
+    display: flex;
+    max-width: 70%;
+    border-radius: 30px;
+    padding-bottom: 10px;
+
+    h3 {
+      font-size: 17px;
+    }
+  }
+}
