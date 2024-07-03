@@ -6,7 +6,7 @@ const Intro = () => {
         <div className='intro' id='intro'>
             <div className='saudacao'>
                 <h1>Olá, eu sou <span>Rick Reis</span>!</h1>
-                <h2>Desenvolvedor Full-Stack</h2>
+                <p>Desenvolvedor</p>
             </div>
 
             <div className='imagem-intro'>
