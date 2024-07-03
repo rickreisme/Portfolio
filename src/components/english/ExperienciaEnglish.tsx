@@ -15,7 +15,6 @@ const ExperienciaEnglish = () => {
     return (
         <div className='experiencia' id='experiencia'>
             <h2 className="tituloxp">&#123;rickreisme&#47;<span>skills</span>&#125;</h2>
-            <h3>My skills</h3>
 
             <div className='habilidades'>
                 <a className='btn2' id="HTML">
