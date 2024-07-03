@@ -102,55 +102,53 @@
     font-size: 18px;
   }
 
-  #projeto-titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  .meus-projetos {
+    .projetos {
+      .link-projeto {
+        min-width: 550px;
+        height: 250px;
 
-  .box-projeto {
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;
-    margin-right: 20px;
-    min-height: 500px;
-  }
+        .box-projeto {
+          margin-bottom: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 0;
+          margin-right: 20px;
+          min-height: 500px;
 
-  .box-projeto .nome-projeto {
-    font-size: 25px;
-  }
+          .nome-projeto {
+            font-size: 30px;
+          }
 
-  .box-projeto h3 {
-    font-size: 16px;
-  }
+          h3 {
+            font-size: 16px;
+          }
 
-  .box-projeto p {
-    color: #fff;
-    text-align: center;
-    max-height: 80px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding: 20px 15px 20px 15px;
-  }
+          p {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            font-size: 18px;
+          }
+          
+          h4{
+            margin-top: 20px;
+            font-size: 14px;
+          }
+        }
+      }
 
-  .btn5 {
-    padding-bottom: 0;
-    margin-top: -30px;
+      .btn5 {
+        padding-bottom: 0;
+        margin-top: -30px;
+      }
+    }
   }
 
   .colunas {
     display: flex;
     flex-direction: column-reverse;
     margin: 0 15%;
-  }
-
-  #avaRick {
-    width: 250px;
-    padding-bottom: 20px;
   }
 
   .sociais {

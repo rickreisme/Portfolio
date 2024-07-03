@@ -30,29 +30,25 @@
     animation-range: none;
   }
 
-  .box-projeto {
-    width: 370px;
-    height: 450px;
-    border-radius: 27px;
-    background: $verde-sete;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 15px;
-  }
+  .meus-projetos {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
 
-  .box-projeto p {
-    color: #FFF;
-    text-align: center;
+    .link-projeto {
+      display: flex;
+      min-width: 450px;
+      height: 350px;
 
-    font-size: 15.5px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+      .box-projeto {
+        display: flex;
+
+        p {
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+      }
+    }
   }
 
   .sobre {
@@ -68,30 +64,6 @@
   }
 
   .btn2 {
-    animation: none;
-    animation-timeline: none;
-    animation-range: none;
-  }
-
-  .meus-projetos {
-    animation: none;
-    animation-timeline: none;
-    animation-range: none;
-  }
-
-  .img_projeto {
-    animation: none;
-    animation-timeline: none;
-    animation-range: none;
-  }
-
-  #avaRick {
-    animation: none;
-    animation-timeline: none;
-    animation-range: none;
-  }
-
-  .colunaE h3 {
     animation: none;
     animation-timeline: none;
     animation-range: none;
