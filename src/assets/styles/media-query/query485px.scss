@@ -66,6 +66,15 @@
     font-size: 16px;
   }
 
+  .intro {
+    .saudacao {
+      h5 {
+        max-width: 80%;
+        text-align: center;
+      }
+    }
+  }
+
   .menu {
     display: flex;
     align-items: center;

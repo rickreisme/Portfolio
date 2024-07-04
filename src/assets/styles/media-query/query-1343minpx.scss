@@ -1,8 +1,15 @@
 @media screen and (min-width: 1343px) {
-    @import "../vars.scss";
+  @import "../vars.scss";
 
-    .menu .content .paginas{
-        margin-right: 5%;
-    }
-
+  .sobre .paragrafo p{
+    max-width: 80%;
   }
+
+  .menu .content .paginas {
+    margin-right: 5%;
+  }
+
+  .colunaC h3{
+    max-width: 60%;
+  }
+}

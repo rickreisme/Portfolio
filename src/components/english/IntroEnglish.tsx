@@ -6,7 +6,8 @@ const IntroEnglish = () => {
         <div className='intro' id='intro'>
             <div className='saudacao'>
                 <h1>Hello, I'm <span>Rick Reis</span>!</h1>
-                <h2>Developer</h2>
+                <p>Developer</p>
+                <h5>React.js | PostgreSQL | Flutter | ASP.NET Core</h5>
             </div>
 
             <div className='imagem-intro'>

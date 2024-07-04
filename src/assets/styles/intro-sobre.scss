@@ -28,6 +28,9 @@
   }
 
   .saudacao {
+    h1{
+      margin: 0;
+    }
 
     p {
       color: $verde-terciario;
@@ -36,6 +39,14 @@
       animation: desappear2 forwards;
       animation-timeline: scroll();
       animation-range: cover 0% cover 50%;
+      margin: 0;
+    }
+
+    h5{
+      color: $verde-quaternario;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0;
     }
   }
 
@@ -56,7 +67,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 210px 100px;
+  padding-top: 200px;
+  margin: 0 100px;
+  margin-bottom: 0;
   align-items: center;
 
   .sobre-titulo {

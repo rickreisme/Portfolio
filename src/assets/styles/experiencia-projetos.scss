@@ -6,7 +6,7 @@
   flex-direction: column;
   margin: 0 7%;
   align-items: center;
-  padding: 200px;
+  padding-top: 95px;
   justify-content: center;
   align-self: center;
 
@@ -87,11 +87,119 @@
     .btn2::after {
       content: "";
       position: absolute;
-      background: $verde-quaternario;
+      background: $verde-oito;
       inset: 3px;
       border-radius: 30px;
     }
     .btn2:hover {
+      color: black;
+      background: $verde-seis;
+    }
+
+    .btn2b {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      height: 53px;
+      border-radius: 30px;
+      background: $verde-oito;
+      transition: $transicao-botao-hover;
+      text-decoration: none;
+      margin-left: 20px;
+      margin-right: 20px;
+      overflow: hidden;
+
+      h2 {
+        z-index: 1;
+        font-size: 19px;
+
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        padding-left: 10px;
+      }
+
+      i {
+        display: flex;
+        font-size: 2.3rem;
+        z-index: 1;
+      }
+    }
+    .btn2b::before {
+      content: "";
+      position: absolute;
+      background-color: #fff;
+      width: 200px;
+      height: 63px;
+      border-radius: 30px;
+      animation: 4s linear 0s infinite normal none running barra;
+    }
+    .btn2b::after {
+      content: "";
+      position: absolute;
+      background: $verde-sete;
+      inset: 3px;
+      border-radius: 30px;
+    }
+    .btn2b:hover {
+      color: black;
+      background: $verde-seis;
+    }
+
+    .btn2o {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      height: 53px;
+      border-radius: 30px;
+      background: $verde-nove;
+      transition: $transicao-botao-hover;
+      text-decoration: none;
+      margin-left: 20px;
+      margin-right: 20px;
+      overflow: hidden;
+
+      h2 {
+        z-index: 1;
+        font-size: 19px;
+
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        padding-left: 10px;
+      }
+
+      i {
+        display: flex;
+        font-size: 2.3rem;
+        z-index: 1;
+      }
+    }
+    .btn2o::before {
+      content: "";
+      position: absolute;
+      background-color: #fff;
+      width: 200px;
+      height: 63px;
+      border-radius: 30px;
+      animation: 4s linear 0s infinite normal none running barra;
+    }
+    .btn2o::after {
+      content: "";
+      position: absolute;
+      background: $verde-seis;
+      inset: 3px;
+      border-radius: 30px;
+    }
+    .btn2o:hover {
       color: black;
       background: $verde-seis;
     }

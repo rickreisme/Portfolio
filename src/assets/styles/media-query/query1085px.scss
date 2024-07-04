@@ -10,10 +10,13 @@
     overflow-x: hidden;
   }
 
-  #logo {
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 32px;
+  .menu {
+    .content {
+      #logo {
+        display: flex;
+        margin-top: 10px;
+      }
+    }
   }
 
   .paginas {
@@ -130,8 +133,8 @@
             margin-bottom: 0 !important;
             font-size: 18px;
           }
-          
-          h4{
+
+          h4 {
             margin-top: 20px;
             font-size: 14px;
           }
