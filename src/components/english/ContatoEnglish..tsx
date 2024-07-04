@@ -1,6 +1,6 @@
 import "../../assets/styles/contato.scss"
 
-import { FaGithub, FaLinkedin, FaBehanceSquare, FaLink } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaBehanceSquare } from "react-icons/fa";
 
 const ContatoEnglish = () => {
     return (
@@ -9,9 +9,9 @@ const ContatoEnglish = () => {
 
             <div className='colunaC'>
                 <h3 className="estou">
-                    I am looking for  job opportunities, please contact me by email
-                    clicking on the button below or via LinkedIn.
-                    Feedbacks are also always welcome!
+                    I would love to discuss how I can contribute to your company's success or help 
+                    transform your idea into a beautiful and efficient solution. Let's talk? Get 
+                    in touch with me and let's make it happen! Feedback is always welcome too.
                 </h3>
 
                 <a className='btn6' href='mailto:ricksonreisamoroso@gmail.com' target='_blank' rel="noreferrer">
@@ -19,7 +19,6 @@ const ContatoEnglish = () => {
                 </a>
 
                 <div className='sociais'>
-                    <h3>Follow me on:</h3>
                     <div className='redes'>
                         <a href='https://github.com/rickreisme' target="_blank" rel="noreferrer">
                             <i id='gith'> <FaGithub /> </i>
@@ -31,10 +30,6 @@ const ContatoEnglish = () => {
 
                         <a href='https://www.behance.net/rickreis1' target="_blank" rel="noreferrer">
                             <i id='beh'> <FaBehanceSquare /> </i>
-                        </a>
-
-                        <a href='https://linktr.ee/rickreisme' target="_blank" rel="noreferrer">
-                            <i id='linkk'> <FaLink /> </i>
                         </a>
                     </div>
                 </div>
