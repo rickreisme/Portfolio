@@ -161,17 +161,48 @@
   }
 }
 
-@keyframes fadeIn {
+@keyframes textFadeOut {
   0% {
-    font-size: 0px;
-    opacity: 0;
+    opacity: 1;
+    display: inline;
   }
-  50% {
-    font-size: 1px;
+  50%{
+    display: hidden;
+  }
+  100% {
     opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0;
+    display: none;
   }
   100% {
     opacity: 1;
-    font-size: 25px;
+    display: inline;
+  }
+}
+
+@keyframes textReplace {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    opacity: 1;
+    display: inline;
+    
+  }
+}
+
+@keyframes moveCloseTagBack {
+  0% {
+    transform: translateX(-140px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }

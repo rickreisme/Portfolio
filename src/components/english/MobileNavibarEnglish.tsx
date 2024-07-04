@@ -51,15 +51,18 @@ const MobileNavbarEnglish: React.FC = () => {
     <nav className='menu'>
       <div className='content'>
         <a href='#intro' id='logo'>
-          <span className='tag1'>&lt;</span>
-          <span className="text">rickreisme</span>
-          <span className='tag2'>/&gt;</span>
+          <span className='tag1'>&lt; </span>
+          <span className="text" id='initial-text'>rr</span>
+          <span className="hidden-text" id='final-text'>rickreisme</span>
+          <span className='tag2' id="close-tag">/&gt; </span>
         </a>
+
         <div className='mobile-menu' ref={mobileMenuRef}>
           <div className='line1'></div>
           <div className='line2'></div>
           <div className='line3'></div>
         </div>
+        
         <ul className='paginas' ref={paginasRef}>
           <li>
             <a href='#sobre' id='link-pags'>

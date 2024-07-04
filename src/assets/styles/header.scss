@@ -65,19 +65,25 @@
       }
 
       .tag1 {
-        opacity: 0;
-        animation: moveRight 1s ease-in forwards 1s;
+        animation: moveRight 1s ease-in;
       }
 
       .tag2 {
-        opacity: 0;
-        animation: moveLeft 1s ease-in forwards 1s;
+        animation: moveCloseTagBack .8s ease forwards 7s;
+        transform: translateX(-140px);
       }
 
       .text {
         opacity: 0;
         font-size: 25px;
-        animation: fadeIn 2s ease-in forwards 1s;
+        animation: textFadeIn .5s ease-in forwards 1s,
+          textFadeOut .5s ease-out forwards 6s;
+      }
+
+      .hidden-text {
+        opacity: 0;
+        animation: textReplace 1s ease-in forwards 7s;
+        margin: 0 3px;
       }
     }
 
