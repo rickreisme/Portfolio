@@ -5,11 +5,15 @@ import {
     FaGitAlt, FaDocker, FaPython, FaFigma, FaSass,
     FaNodeJs, FaBootstrap
 } from "react-icons/fa";
+
 import {
-    SiFlutter, SiOracle, SiMicrosoftsqlserver, SiCsharp, SiAxios
+    SiFlutter, SiOracle, SiMicrosoftsqlserver, SiCsharp, SiAxios,
+    SiTypescript
 } from "react-icons/si";
+
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbHttpGet } from "react-icons/tb";
+import { VscVscode } from "react-icons/vsc";
 
 const ExperienciaEnglish = () => {
     return (
@@ -21,7 +25,6 @@ const ExperienciaEnglish = () => {
                 <a className='btn2' id="React">
                     <i> <FaReact /> </i>
                     <h2>React.js</h2>
-
                 </a>
 
                 <a className='btn2b' id="Postg">
@@ -103,6 +106,11 @@ const ExperienciaEnglish = () => {
                     <h2>ASP.NET</h2>
                 </a>
 
+                <a className='btn2o' id="TS">
+                    <i> <SiTypescript /> </i>
+                    <h2>TypeScript</h2>
+                </a>
+
                 <a className='btn2b' id="Cpp">
                     <i className="devicon-cplusplus-plain"></i>
                     <h2>C++</h2>
@@ -122,6 +130,11 @@ const ExperienciaEnglish = () => {
                 <a className='btn2o' id="Figma">
                     <i> <FaFigma /> </i>
                     <h2>Figma</h2>
+                </a>
+
+                <a className='btn2o' id="Vscode">
+                    <i> <VscVscode /> </i>
+                    <h2>VsCode</h2>
                 </a>
             </div>
         </div>
