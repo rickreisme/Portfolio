@@ -53,7 +53,8 @@
         color: $verde-principal;
       }
 
-      .text:hover, .hidden-text:hover {
+      .text:hover,
+      .hidden-text:hover {
         color: white;
       }
 
@@ -70,15 +71,15 @@
       }
 
       .tag2 {
-        animation: moveCloseTagBack .8s ease forwards 7s;
+        animation: moveCloseTagBack 0.8s ease forwards 7s;
         transform: translateX(-140px);
       }
 
       .text {
         opacity: 0;
         font-size: 25px;
-        animation: textFadeIn .5s ease-in forwards 1s,
-          textFadeOut .5s ease-out forwards 6s;
+        animation: textFadeIn 0.5s ease-in forwards 1s,
+          textFadeOut 0.5s ease-out forwards 6s;
       }
 
       .hidden-text {
@@ -96,12 +97,29 @@
       #link-pags {
         margin-left: 18px;
       }
+
+      .btn-language {
+        color: $verde-secundario;
+        .div-btn-language {
+          display: flex;
+          align-items: center;
+
+          span{
+            display: flex;
+            align-items: center;
+            gap: 4px;
+          }
+
+          .icon-language{
+            font-size: 22px;
+          }
+        }
+      }
     }
   }
 }
 
 header span {
-  color: white;
   font-size: 18.5px;
   font-style: normal;
   font-weight: bold;

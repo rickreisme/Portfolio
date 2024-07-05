@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import '../assets/styles/header.scss';
 import '../assets/styles/mobile-menu.scss';
+import { IoLanguage } from "react-icons/io5";
+
 
 const MobileNavbar: React.FC = () => {
   const mobileMenuRef = useRef<HTMLDivElement>(null);
@@ -90,8 +92,10 @@ const MobileNavbar: React.FC = () => {
 
           <li>
             <Link to="/english" >
-              <a id='link-pags' className='btn-english'>
-                <span>&lt;View in English/&gt;</span>
+              <a className='btn-language'>
+                <div className='div-btn-language' id='link-pags'>
+                  <span>En <IoLanguage className='icon-language' /></span>
+                </div>
               </a>
             </Link>
           </li>

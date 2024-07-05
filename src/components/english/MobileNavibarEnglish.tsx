@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import '../../assets/styles/header.scss';
 import '../../assets/styles/mobile-menu.scss';
+import { IoLanguage } from "react-icons/io5";
 
 const MobileNavbarEnglish: React.FC = () => {
   const mobileMenuRef = useRef<HTMLDivElement>(null);
@@ -62,7 +63,7 @@ const MobileNavbarEnglish: React.FC = () => {
           <div className='line2'></div>
           <div className='line3'></div>
         </div>
-        
+
         <ul className='paginas' ref={paginasRef}>
           <li>
             <a href='#sobre' id='link-pags'>
@@ -90,8 +91,10 @@ const MobileNavbarEnglish: React.FC = () => {
 
           <li>
             <Link to="/" >
-              <a id='link-pags' className='btn-english'>
-                <span>&lt;Ver em português/&gt;</span>
+              <a className='btn-language'>
+                <div className='div-btn-language' id='link-pags'>
+                  <span>Ptbr <IoLanguage className='icon-language' /></span>
+                </div>
               </a>
             </Link>
           </li>
