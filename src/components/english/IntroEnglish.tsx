@@ -5,7 +5,7 @@ const IntroEnglish = () => {
     return (
         <div className='intro' id='intro'>
             <div className='saudacao'>
-                <h1>Hello, I'm <span>Rick Reis</span>!</h1>
+                <h1>Rick Reis</h1>
                 <p>Developer</p>
                 <h5>React.js | PostgreSQL | Flutter | ASP.NET Core</h5>
             </div>

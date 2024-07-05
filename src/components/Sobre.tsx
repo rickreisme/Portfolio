@@ -12,15 +12,12 @@ const Sobre = () => {
 
                 <div className="paragrafo">
                     <p>
-                        Sou um desenvolvedor apaixonado pelo que faço! Graduado em Análise e Desenvolvimento
-                            de Sistemas pela Faculdade de Tecnologia de Ribeirão Preto,
-                        com inglês avançado, tenho habilidades sólidas em HTML,
-                         CSS, JavaScript e React.js.
-                        Além disso, possuo um excelente domínio em SQL (PostgreSQL,
-                        Oracle), Flutter, Docker, API REST,
-                         Axios, Bootstrap, ASP.NET Core, Python,
-                         Flutter e Firebase. Te convido a conhecer, nesse portfólio, um pouco mais da minha
-                        experiência e habilidades.
+                        Olá, meu nome é Rickson Reis! Sou um desenvolvedor apaixonado pelo que faço! <br />
+                        Graduado em Análise e Desenvolvimento de Sistemas, com inglês avançado, tenho habilidades 
+                        sólidas em HTML, CSS, JavaScript e React.js. Além disso, possuo um excelente domínio em SQL 
+                        (PostgreSQL, Oracle), Flutter, Docker, API REST, Axios, Bootstrap, ASP.NET Core, Python, 
+                        Flutter e Firebase. Te convido a conhecer, nesse portfólio, um pouco mais da minha experiência 
+                        e habilidades.
                     </p>
 
                     <a className='btn' href="https://flowcv.com/resume/di16gfcff3" target="_blank">
