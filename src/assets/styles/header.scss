@@ -22,10 +22,11 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  height: 12vh;
+  height: 10vh;
   width: 100%;
   background-color: $bg-menu;
   backdrop-filter: blur(3px);
+  border-bottom: 1px solid $border-menu;
 
   .content {
     display: flex;
