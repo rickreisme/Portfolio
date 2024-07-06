@@ -237,7 +237,95 @@
     margin-bottom: 20px;
   }
 
-  .projetos {
+  .destaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      font-size: 25px;
+    }
+
+    .destaque-projetos {
+      .link-projeto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 370px;
+        position: relative;
+        background: $verde-sete;
+        border-radius: 30px;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+
+        .box-projeto {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0 2px;
+          flex-grow: 1;
+          flex-basis: 0;
+
+          .nome-projeto {
+            text-align: center;
+            color: #fff;
+            z-index: 1;
+          }
+
+          h4 {
+            color: $verde-principal;
+            text-align: center;
+            font-size: 0.8rem;
+            max-width: 90%;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-top: 5px;
+            z-index: 1;
+          }
+
+          p {
+            color: #fff;
+            max-height: 90px;
+            max-width: 90%;
+            text-align: center;
+            font-size: 15.5px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-top: auto;
+            margin-bottom: auto;
+            z-index: 1;
+          }
+        }
+      }
+      .link-projeto::before {
+        content: "";
+        position: absolute;
+        background-color: #fff;
+        width: 450px;
+        height: 440px;
+        border-radius: 30px;
+        animation: 10s linear 0s infinite normal none running barra;
+      }
+      .link-projeto::after {
+        content: "";
+        position: absolute;
+        background: $verde-oito;
+        inset: 4px;
+        border-radius: 30px;
+      }
+      .link-projeto:hover {
+        background-color: $verde-principal;
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  .projetos,
+  .destaque-projetos {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

@@ -93,7 +93,7 @@ const MobileNavbarEnglish: React.FC = () => {
             <Link to="/" >
               <a className='btn-language'>
                 <div className='div-btn-language' id='link-pags'>
-                  <span>Ptbr <IoLanguage className='icon-language' /></span>
+                  <span>Pt-br <IoLanguage className='icon-language' /></span>
                 </div>
               </a>
             </Link>

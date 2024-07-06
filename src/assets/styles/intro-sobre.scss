@@ -28,7 +28,7 @@
   }
 
   .saudacao {
-    h1{
+    h1 {
       margin: 0;
     }
 
@@ -42,7 +42,7 @@
       margin: 0;
     }
 
-    h5{
+    h5 {
       color: $verde-quaternario;
       font-size: 22px;
       font-weight: 500;
@@ -53,6 +53,7 @@
   .imagem-intro {
     display: flex;
     border-radius: 50%;
+
 
     img {
       width: 350px;

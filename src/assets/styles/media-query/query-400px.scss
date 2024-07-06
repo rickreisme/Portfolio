@@ -13,13 +13,34 @@
         font-size: 20px;
       }
 
-      .btn{
+      .btn {
         max-width: 100%;
       }
     }
   }
 
   .meus-projetos {
+    .destaques {
+      .destaque-projetos {
+        .link-projeto {
+          min-width: 200px;
+          min-height: 350px;
+
+          .box-projeto {
+            padding: 0 10px !important;
+
+            p {
+              font-size: 16px;
+            }
+
+            h4 {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
     .projetos {
       .link-projeto {
         min-width: 200px;
@@ -30,10 +51,12 @@
 
           p {
             font-size: 16px;
+            padding-bottom: 5px;
           }
 
           h4 {
             font-size: 12px;
+          
           }
         }
       }

@@ -108,7 +108,7 @@ const Experiencia = () => {
                 </a>
 
                 <a className='btn2o' id="TS">
-                    <i> <SiTypescript  /> </i>
+                    <i> <SiTypescript /> </i>
                     <h2>TypeScript</h2>
                 </a>
 

@@ -5,50 +5,57 @@ const Projetos = () => {
         <div className='meus-projetos' id='meus-projetos'>
             <h2 id="projeto-titulo">&#123;rickreisme&#47;<span>projetos</span>&#125;</h2>
 
+            <div className="destaques">
+                <h3>Destaques</h3>
+
+                <div className="destaque-projetos">
+                    <a className="link-projeto">
+                        <div className='box-projeto'>
+                            <h2 className="nome-projeto">Portal de Serviços</h2>
+
+                            <p>
+                                Um sistema web modular que gerencia e disponibiliza serviços de uma faculdade pública.
+                            </p>
+
+                            <h4>Vite React - Auth0 - API REST - SASS - Express</h4>
+                        </div>
+                    </a>
+
+                    <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/GerenciadorSenhas">
+                        <div className='box-projeto'>
+                            <h2 className="nome-projeto">Gerenciador de Senhas</h2>
+
+                            <p>
+                                Uma aplicação web que permite o cadastro, geração e o gerenciamento de senhas, notas e favoritos.
+                            </p>
+
+                            <h4>Vite React - Python - SASS - Javascript - Docker - PostgreSQL</h4>
+                        </div>
+                    </a>
+
+                    <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/Epp">
+                        <div className='box-projeto'>
+                            <h2 className="nome-projeto">E++</h2>
+
+                            <p>
+                                Um app Android feito para ajudar no aprendizado de programação utilizando a gamificação.
+                            </p>
+
+                            <h4>Flutter - Firebase - Figma</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <h3>Todos os projetos</h3>
+
             <div className='projetos' id='projetos'>
-
-                <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/GerenciadorSenhas">
-                    <div className='box-projeto'>
-                        <h2 className="nome-projeto">Gerenciador de Senhas</h2>
-
-                        <p>
-                            Uma aplicação web que permite o cadastro, geração e o gerenciamento de senhas, notas e favoritos.
-                        </p>
-
-                        <h4>Vite React - Python - SASS - Javascript - Docker - PostgreSQL</h4>
-                    </div>
-                </a>
-
-                <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/Epp">
-                    <div className='box-projeto'>
-                        <h2 className="nome-projeto">E++</h2>
-
-                        <p>
-                            Um app Android feito para ajudar no aprendizado de programação utilizando a gamificação.
-                        </p>
-
-                        <h4>Flutter - Firebase - Figma</h4>
-                    </div>
-                </a>
-
-                <a className="link-projeto">
-                    <div className='box-projeto'>
-                        <h2 className="nome-projeto">Portal de Serviços</h2>
-
-                        <p>
-                            Um sistema web modular que gerencia e disponibiliza serviços de uma faculdade pública.
-                        </p>
-
-                        <h4>Vite React - Auth0 - API REST - SASS - Express</h4>
-                    </div>
-                </a>
-
                 <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/ContactMVC">
                     <div className='box-projeto'>
                         <h2 className="nome-projeto">ContactMVC</h2>
 
                         <p>
-                            Uma aplicação web que implementa operações CRUD em um sistema de contatos ligado com um banco de dados em
+                            Aplicação web que implementa operações CRUD em um sistema de contatos ligado com um banco de dados em
                             Docker.
                         </p>
 

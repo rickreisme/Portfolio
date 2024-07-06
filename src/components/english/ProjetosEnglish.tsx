@@ -5,38 +5,45 @@ const ProjetosEnglish = () => {
         <div className='meus-projetos' id='meus-projetos'>
             <h2 id="projeto-titulo">&#123;rickreisme&#47;<span>projects</span>&#125;</h2>
 
+            <div className="destaques">
+                <h3>Highlights</h3>
+
+                <div className="destaque-projetos">
+                    <a className="link-projeto">
+                        <div className='box-projeto'>
+                            <h2 className="nome-projeto">Service Portal</h2>
+                            <p>
+                                A modular web system that manages and provides services for a public college.
+                            </p>
+                            <h4>Vite React - Auth0 - API REST - SASS - Express</h4>
+                        </div>
+                    </a>
+
+                    <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/GerenciadorSenhas">
+                        <div className='box-projeto'>
+                            <h2 className="nome-projeto">Password Manager</h2>
+                            <p>
+                                A web application that allows the registration, generation, and management of passwords, notes, and favorites.
+                            </p>
+                            <h4>Vite React - Python - SASS - Javascript - Docker - PostgreSQL</h4>
+                        </div>
+                    </a>
+
+                    <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/Epp">
+                        <div className='box-projeto'>
+                            <h2 className="nome-projeto">E++</h2>
+                            <p>
+                                An Android app designed to help with programming learning using gamification.
+                            </p>
+                            <h4>Flutter - Firebase - Figma</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <h3>All projects</h3>
+
             <div className='projetos' id='projetos'>
-
-                <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/GerenciadorSenhas">
-                    <div className='box-projeto'>
-                        <h2 className="nome-projeto">Password Manager</h2>
-                        <p>
-                            A web application that allows the registration, generation, and management of passwords, notes, and favorites.
-                        </p>
-                        <h4>Vite React - Python - SASS - Javascript - Docker - PostgreSQL</h4>
-                    </div>
-                </a>
-
-                <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/Epp">
-                    <div className='box-projeto'>
-                        <h2 className="nome-projeto">E++</h2>
-                        <p>
-                            An Android app designed to help with programming learning using gamification.
-                        </p>
-                        <h4>Flutter - Firebase - Figma</h4>
-                    </div>
-                </a>
-
-                <a className="link-projeto">
-                    <div className='box-projeto'>
-                        <h2 className="nome-projeto">Service Portal</h2>
-                        <p>
-                            A modular web system that manages and provides services for a public college.
-                        </p>
-                        <h4>Vite React - Auth0 - API REST - SASS - Express</h4>
-                    </div>
-                </a>
-
                 <a className="link-projeto" target='_blank' href="https://github.com/rickreisme/ContactMVC">
                     <div className='box-projeto'>
                         <h2 className="nome-projeto">ContactMVC</h2>

@@ -206,3 +206,12 @@
     transform: translateX(0px);
   }
 }
+
+@keyframes moveCloseTagBack2 {
+  0% {
+    transform: translateX(-35px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

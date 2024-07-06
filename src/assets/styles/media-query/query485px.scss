@@ -36,7 +36,9 @@
   .box-projeto {
     width: 100%;
   }
+
   .btn2,
+  .btn2b .btn2o,
   .btn3,
   .btn4,
   .btn5,
@@ -47,32 +49,15 @@
     align-items: center;
   }
 
-  .btn3R {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .btn img {
-    padding-left: 10px;
-  }
-
   .btn h2,
   .btn2 h2,
-  .btn3 h2 .btn3R h2,
+  .btn2b h2,
+  .btn2o h2,
+  .btn3 h2,
   .btn4 h2,
   .btn5 h2,
   .btn6 h2 {
     font-size: 16px;
-  }
-
-  .intro {
-    .saudacao {
-      h5 {
-        max-width: 80%;
-        text-align: center;
-      }
-    }
   }
 
   .menu {
@@ -81,10 +66,14 @@
     justify-content: space-evenly;
     margin-right: 10%;
     height: 10vh;
-  }
 
-  .mobile-menu {
-    margin-right: 1%;
+    #logo {
+      margin-left: 3%;
+    }
+
+    .mobile-menu {
+      margin-right: 3%;
+    }
   }
 
   .paginas {
@@ -98,15 +87,11 @@
     justify-content: start;
     align-items: center;
     transform: translateX(110%);
-  }
 
-  .paginas li {
-    padding-top: 50px;
-    margin-left: 0;
-  }
-
-  #logo {
-    margin-right: 30%;
+    li {
+      padding-top: 50px;
+      margin-left: 0;
+    }
   }
 
   .intro {
@@ -114,31 +99,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    .saudacao {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding-top: 100px;
+      padding-bottom: 10px;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        text-align: center;
+        max-width: 80%;
+      }
 
-  .saudacao {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-top: 100px;
-    padding-bottom: 10px;
-    justify-content: center;
-    align-items: center;
-  }
+      h2 {
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: center;
+      }
 
-  .saudacao h1 {
-    text-align: center;
-    max-width: 80%;
-  }
-
-  .saudacao h2 {
-    font-size: 20px;
-    margin-top: 5px;
-    text-align: center;
-  }
-
-  .intro {
+      h5 {
+        max-width: 80%;
+        text-align: center;
+      }
+    }
     .imagem-intro {
       border: none;
 
@@ -149,70 +134,64 @@
         padding-top: 20px;
       }
     }
+  }
 
-    .sobre {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-left: 15%;
-      margin-right: 15%;
-
-      .paragrafro {
-        p {
-          font-size: 20px;
-          max-width: 70%;
-        }
-
-        .btn {
-          width: 100px;
-        }
-      }
-    }
-
-    .h2s {
-      padding-top: 10px;
-    }
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
 
     .sobre-titulo {
       padding-top: 0;
-    }
 
-    .sobre h1 {
-      font-size: 23px;
-    }
-
-    .btn h2 {
-      font-size: 18px;
-    }
-
-    .experiencia {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      .tituloxp {
-        margin-top: 100px;
+      .h2s {
+        padding-top: 10px;
       }
+    }
+
+    .paragrafro {
+      p {
+        font-size: 20px;
+        max-width: 70%;
+      }
+
+      .btn {
+        width: 100px;
+
+        h2 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .tituloxp {
+      margin-top: 100px;
     }
 
     .habilidades {
       margin-bottom: 50px;
+
+      .btn2, .btn2b, .btn2o {
+        margin-left: 0;
+       
+      }
     }
+  }
 
-    .btn2 {
-      margin-left: 0;
-      width: 60%;
-    }
+  .meus-projetos {
+    padding-top: 80px;
 
-    .meus-projetos {
-      padding-top: 80px;
-
-      .projetos {
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-
+    .destaques {
+      .destaque-projetos {
         .link-projeto {
           max-width: 500px;
           min-height: 350px;
@@ -244,62 +223,102 @@
           max-width: 500px;
           max-height: 400px;
         }
+      }
+    }
 
-        .btn5 {
-          font-size: 17px;
-          width: 60%;
+    .projetos {
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+
+      .link-projeto {
+        max-width: 500px;
+        min-height: 350px;
+
+        .box-projeto {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0 2px;
+          flex-grow: 1;
+          flex-basis: 0;
+
+          .nome-projeto {
+            font-size: 22px;
+            margin-top: 50px;
+          }
+
+          p {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+          }
+
+          h4 {
+            max-width: 90%;
+          }
         }
       }
-    }
-
-    .estou h3 {
-      max-width: 90%;
-    }
-
-    .sociais {
-      display: flex;
-      max-width: 90%;
-      border-radius: 30px;
-      padding-bottom: 10px;
-
-      h3 {
-        font-size: 17.5px;
-      }
-    }
-
-    .redes {
-      height: 50px;
-      gap: 25px;
-    }
-
-    .redes a {
-      z-index: 1;
-
-      i {
-        cursor: pointer;
-        font-size: 2.3rem;
-        transition: 0.3s ease-in-out;
+      .link-projeto::before {
+        max-width: 500px;
+        max-height: 400px;
       }
 
-      i:hover {
-        font-size: 2.5rem;
+      .btn5 {
+        font-size: 17px;
+        width: 60%;
       }
     }
+  }
 
-    .contato {
-      padding-top: 90px;
-    }
+  .contato {
+    padding-top: 90px;
 
-    .contato br {
+    br {
       display: none;
     }
 
-    footer {
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
+    .colunaC {
+      .estou h3 {
+        max-width: 90%;
+      }
 
-    footer h3 {
+      .sociais {
+        display: flex;
+        max-width: 90%;
+        border-radius: 30px;
+        padding-bottom: 10px;
+
+        h3 {
+          font-size: 17.5px;
+        }
+
+        .redes {
+          height: 50px;
+          gap: 25px;
+
+          a {
+            z-index: 1;
+
+            i {
+              cursor: pointer;
+              font-size: 2.3rem;
+              transition: 0.3s ease-in-out;
+            }
+
+            i:hover {
+              font-size: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    h3 {
       font-size: 15px;
       color: white;
       font-weight: 600;
