@@ -70,7 +70,7 @@
       }
 
       .tag2 {
-        animation: moveCloseTagBack 0.8s ease forwards 7s;
+        animation: moveLeft 1s ease-in, moveCloseTagBack 0.8s ease forwards 7s;
         transform: translateX(-140px);
       }
 

@@ -18,7 +18,6 @@
   line-height: normal;
 }
 
-
 .colunaC {
   flex: 1;
   display: flex;
@@ -89,9 +88,6 @@
   border-radius: 43px;
   background: $verde-secundario;
   margin-top: 40px;
-  animation: appear3 forwards;
-  animation-timeline: view();
-  animation-range: cover 0% cover 50%;
   overflow: hidden;
 }
 
@@ -148,16 +144,8 @@
 
 #gith,
 #linkd,
-#beh,
-#linkk {
+#beh {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#avaRick {
-  display: flex;
-  width: 350px;
   justify-content: center;
   align-items: center;
 }

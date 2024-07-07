@@ -1,17 +1,22 @@
 @import "./vars.scss";
 
 footer {
-  padding-top: 200px;
-  margin-bottom: 15px;
-}
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 5vh;
+  padding: 3px 0;
+  border-top: 1px solid $border-menu;
 
-footer h3 {
-  font-size: 17px;
-  color: white;
-  font-weight: 600;
-  text-align: center;
-}
+  h3 {
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+  }
 
-footer span {
-  color: $verde-principal;
+  span {
+    color: $verde-principal;
+  }
 }

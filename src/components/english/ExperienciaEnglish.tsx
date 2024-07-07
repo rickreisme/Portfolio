@@ -3,7 +3,7 @@ import "../../assets/styles/experiencia-projetos.scss"
 import {
     FaHtml5, FaCss3Alt, FaJs, FaReact,
     FaGitAlt, FaDocker, FaPython, FaFigma, FaSass,
-    FaNodeJs, FaBootstrap
+    FaNodeJs, FaBootstrap, FaPaintBrush
 } from "react-icons/fa";
 
 import {
@@ -14,11 +14,13 @@ import {
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbHttpGet } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
+import { LuLayout } from "react-icons/lu";
 
 const ExperienciaEnglish = () => {
     return (
         <div className='experiencia' id='experiencia'>
             <h2 className="tituloxp">&#123;rickreisme&#47;<span>skills</span>&#125;</h2>
+
             <h3>Tecnologies I use</h3>
 
             <div className='habilidades'>
@@ -137,6 +139,41 @@ const ExperienciaEnglish = () => {
                     <h2>VsCode</h2>
                 </a>
             </div>
+
+            <h3 className="diferenciais-titulo">Another skills </h3>
+
+            <div className="diferenciais">
+                <div className="card">
+                    <div className="card-titulo">
+                        <h3>Design Skills</h3>
+                    </div>
+
+                    <div className="card-body">
+                        <FaPaintBrush className="card-icon" />
+                        <p>
+                            I have a strong passion for design, and over the years, through courses,
+                            practice, and freelance work, I have gained knowledge that allows me to
+                            showcase this in my projects.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card-titulo">
+                        <h3>UI/UX Skills</h3>
+                    </div>
+
+                    <div className="card-body">
+                        <LuLayout className="card-icon" />
+                        <p>
+                            I have always been interested in user interfaces and experiences,
+                            and I translate my acquired knowledge on the subject into
+                            attractive and functional designs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }

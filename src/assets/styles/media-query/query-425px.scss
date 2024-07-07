@@ -1,0 +1,54 @@
+@media screen and (max-width: 425px) {
+  @import "../vars.scss";
+
+  .meus-projetos {
+    .destaques {
+      .destaque-projetos {
+        .link-projeto {
+          min-width: 330px !important;
+          min-height: 500px;
+        }
+      }
+    }
+
+    .projetos {
+      .link-projeto {
+        min-width: 330px !important;
+        min-height: 500px;
+      }
+    }
+  }
+
+  .experiencia {
+    .diferenciais {
+      .card {
+        max-width: 360px !important;
+        min-height: 300px;
+
+        .card-titulo h3 {
+          font-size: 20px;
+        }
+
+        .card-body {
+          flex-direction: column;
+
+          .card-icon {
+            font-size: 3rem;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .sociais {
+    display: flex;
+    max-width: 70%;
+    border-radius: 30px;
+    padding-bottom: 10px;
+
+    h3 {
+      font-size: 17px;
+    }
+  }
+}

@@ -1,19 +1,51 @@
 @media screen and (max-width: 375px) {
-    @import "../vars.scss";
+  @import "../vars.scss";
 
-    .link-projeto{
-      min-height: 500px;
-    }
+  .link-projeto {
+    max-width: 330px !important;
+    min-height: 500px;
+  }
 
+  .experiencia {
+    .diferenciais {
+      .card {
+        max-width: 300px !important;
+        min-height: 300px;
 
-    .sociais {
-        display: flex;
-        max-width: 70%;
-        border-radius: 30px;
-        padding-bottom: 10px;
-    
-        h3 {
-          font-size: 17px;
+        .card-titulo h3{
+          font-size: 20px;
+        }
+
+        .card-body{
+          flex-direction: column;
+
+          .card-icon{
+            font-size: 3rem;
+            margin-top: 5px;
+          }
         }
       }
+    }
+  }
+
+  .sociais {
+    display: flex;
+    max-width: 70%;
+    border-radius: 30px;
+    padding-bottom: 10px;
+
+    h3 {
+      font-size: 17px;
+    }
+  }
+
+  footer{
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 0px;
+    
+    h3{
+      font-size: 12px;
+    }
+  }
 }

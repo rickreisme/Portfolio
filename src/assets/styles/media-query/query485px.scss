@@ -16,8 +16,7 @@
   .sobre,
   .experiencia,
   .meus-projetos,
-  .contato,
-  footer {
+  .contato{
     margin: 0;
     padding: 0;
   }
@@ -26,8 +25,7 @@
   .sobre .sobre-titulo .h2s,
   .experiencia .tituloxp,
   .meus-projetos h2,
-  .contato h2,
-  footer h3 {
+  .contato h2 {
     font-size: 25px;
   }
 
@@ -180,9 +178,16 @@
     .habilidades {
       margin-bottom: 50px;
 
-      .btn2, .btn2b, .btn2o {
+      .btn2,
+      .btn2b,
+      .btn2o {
         margin-left: 0;
-       
+      }
+    }
+
+    .diferenciais {
+      .card {
+        max-width: 400px;
       }
     }
   }
@@ -193,7 +198,7 @@
     .destaques {
       .destaque-projetos {
         .link-projeto {
-          max-width: 500px;
+          max-width: 420px;
           min-height: 350px;
 
           .box-projeto {
@@ -232,7 +237,7 @@
       justify-content: center;
 
       .link-projeto {
-        max-width: 500px;
+        max-width: 420px;
         min-height: 350px;
 
         .box-projeto {
@@ -316,7 +321,7 @@
 
   footer {
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     h3 {
       font-size: 15px;

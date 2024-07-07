@@ -131,28 +131,23 @@
   0% {
     font-size: 0;
     opacity: 0;
-    transform: translateX(-50px);
-  }
-  50% {
-    opacity: 0.5;
-    font-size: 1px;
-    transform: translateX(-60px);
+    transform: translateX(-160px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(-140px);
   }
 }
 
 @keyframes moveRight {
   0% {
     opacity: 0;
-    font-size: 0;
+  
     transform: translateX(50px);
   }
-  30% {
+  50% {
     opacity: 0.5;
-    font-size: 1px;
+   
     transform: translateX(30px);
   }
   100% {
