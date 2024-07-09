@@ -141,7 +141,7 @@ const Experiencia = () => {
                 </a>
             </div>
 
-            <h3 className="diferenciais-titulo">Diferenciais</h3>
+            <h3 className="diferenciais-titulo">Outras habilidades</h3>
 
             <div className="diferenciais">
                 <div className="card">
