@@ -111,79 +111,81 @@
     animation-timeline: none;
     animation-range: none;
 
-    .destaques{
-      .destaque-projetos {
-        .link-projeto {
-          min-width: 460px;
-          height: 260px;
-          padding-top: 20px;
-  
-          .box-projeto {
-            margin-bottom: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: 0;
-  
-            .nome-projeto {
-              font-size: 30px;
-            }
-  
-            h3 {
-              font-size: 16px;
-            }
-  
-            p {
-              margin-top: 0 !important;
-              margin-bottom: 0 !important;
-              font-size: 18px;
-            }
-  
-            h4 {
-              margin-top: 20px;
-              font-size: 14px;
-            }
+    .destaque-projetos {
+      flex-direction: column;
+
+      .box-projeto {
+        min-width: 460px;
+        height: 260px;
+        padding-top: 20px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+
+        h3 {
+          font-size: 16px;
+        }
+
+        p {
+          margin-top: 0 !important;
+          font-size: 16px;
+        }
+
+        .btns-projeto {
+          .btn-link-site,
+          .btn-link-git {
+            font-size: 1.3rem;
           }
         }
-  
-        .btn5 {
-          padding-bottom: 0;
-          margin-top: -30px;
+
+        h4 {
+          margin-top: 20px;
+          font-size: 14px;
         }
+      }
+
+      .btn5 {
+        padding-bottom: 0;
+        margin-top: -30px;
       }
     }
 
     .projetos {
-      .link-projeto {
+      .box-projeto {
         min-width: 460px;
         height: 260px;
         padding-top: 20px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
 
-        .box-projeto {
-          margin-bottom: 25px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-left: 0;
+        .nome-projeto {
+          font-size: 30px;
+        }
 
-          .nome-projeto {
-            font-size: 30px;
+        h3 {
+          font-size: 16px;
+        }
+
+        p {
+          margin-top: 0 !important;
+          font-size: 18px;
+        }
+
+        .btns-projeto {
+          .btn-link-site,
+          .btn-link-git {
+            font-size: 1.3rem;
           }
+        }
 
-          h3 {
-            font-size: 16px;
-          }
-
-          p {
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-            font-size: 18px;
-          }
-
-          h4 {
-            margin-top: 20px;
-            font-size: 14px;
-          }
+        h4 {
+          margin-top: 20px;
+          font-size: 14px;
         }
       }
 

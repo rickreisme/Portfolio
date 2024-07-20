@@ -16,7 +16,7 @@
   .sobre,
   .experiencia,
   .meus-projetos,
-  .contato{
+  .contato {
     margin: 0;
     padding: 0;
   }
@@ -30,8 +30,7 @@
   }
 
   .imagem-intro img,
-  .imagem-sobre img,
-  .box-projeto {
+  .imagem-sobre img {
     width: 100%;
   }
 
@@ -195,82 +194,27 @@
   .meus-projetos {
     padding-top: 80px;
 
-    .destaques {
-      .destaque-projetos {
-        .link-projeto {
-          max-width: 420px;
-          min-height: 350px;
+    .destaque-projetos{
+      .box-projeto{
+        min-height: 330px;
+        min-width: 360px !important;
+        padding: 0 2px;
 
-          .box-projeto {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0 2px;
-            flex-grow: 1;
-            flex-basis: 0;
-
-            .nome-projeto {
-              font-size: 22px;
-              margin-top: 50px;
-            }
-
-            p {
-              margin-top: 0 !important;
-              margin-bottom: 0 !important;
-            }
-
-            h4 {
-              max-width: 90%;
-            }
-          }
-        }
-        .link-projeto::before {
-          max-width: 500px;
-          max-height: 400px;
+        p{
+          margin-bottom: none;
         }
       }
     }
 
     .projetos {
-      flex-direction: column;
-      align-content: center;
-      justify-content: center;
-
-      .link-projeto {
-        max-width: 420px;
+      .box-projeto {
         min-height: 350px;
+        min-width: 360px !important;
+        padding: 0 2px;
 
-        .box-projeto {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          padding: 0 2px;
-          flex-grow: 1;
-          flex-basis: 0;
-
-          .nome-projeto {
-            font-size: 22px;
-            margin-top: 50px;
-          }
-
-          p {
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-          }
-
-          h4 {
-            max-width: 90%;
-          }
+        h4 {
+          max-width: 90%;
         }
-      }
-      .link-projeto::before {
-        max-width: 500px;
-        max-height: 400px;
-      }
-
-      .btn5 {
-        font-size: 17px;
-        width: 60%;
       }
     }
   }

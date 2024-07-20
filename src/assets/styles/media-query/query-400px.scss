@@ -29,45 +29,44 @@
   }
 
   .meus-projetos {
-    .destaques {
-      .destaque-projetos {
-        .link-projeto {
-          min-width: 250px !important;
-          min-height: 350px;
-          padding-top: 0px;
+    .destaque-projetos {
+      .box-projeto {
+        min-width: 250px !important;
+        min-height: 350px;
+        padding-top: 0px;
+        padding: 0 10px !important;
 
-          .box-projeto {
-            padding: 0 10px !important;
+        p {
+          font-size: 16px;
+        }
 
-            p {
-              font-size: 16px;
-            }
-
-            h4 {
-              font-size: 12px;
-            }
+        .btns-projeto {
+          .btn-link-site,
+          .btn-link-git {
+            font-size: 1.3rem;
           }
+        }
+
+        h4 {
+          font-size: 12px;
         }
       }
     }
 
     .projetos {
-      .link-projeto {
+      .box-projeto {
+        padding: 0 10px !important;
         min-width: 250px !important;
         min-height: 350px;
         padding-top: 0px;
 
-        .box-projeto {
-          padding: 0 10px !important;
+        p {
+          font-size: 16px;
+          padding-bottom: 5px;
+        }
 
-          p {
-            font-size: 16px;
-            padding-bottom: 5px;
-          }
-
-          h4 {
-            font-size: 12px;
-          }
+        h4 {
+          font-size: 12px;
         }
       }
     }
@@ -75,17 +74,16 @@
 
   .sociais {
     display: flex;
-    max-width: 350px;
+    max-width: 100% !important;
     border-radius: 30px;
-    padding-bottom: 10px;
 
     h3 {
       font-size: 17px;
     }
   }
 
-  .footer{
-    h3{
+  .footer {
+    h3 {
       font-size: 12px;
     }
   }

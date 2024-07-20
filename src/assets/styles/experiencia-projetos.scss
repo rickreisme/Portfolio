@@ -34,7 +34,7 @@
     margin-top: 5px;
   }
 
-  .diferenciais-titulo{
+  .diferenciais-titulo {
     margin-top: 35px;
   }
 
@@ -59,7 +59,7 @@
       padding: 15px 5px;
       flex-grow: 1;
       flex-basis: 0;
-      transition: .3s ease-in-out;
+      transition: 0.3s ease-in-out;
       box-shadow: 2px 7px 5px $verde-oito;
 
       .card-titulo h3 {
@@ -86,7 +86,7 @@
         }
       }
     }
-    .card:hover{
+    .card:hover {
       background: $verde-cinco;
       box-shadow: 2px 5px 10px $verde-oito;
     }
@@ -273,7 +273,7 @@
   h2 {
     color: $verde-quaternario;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -289,95 +289,113 @@
     margin-bottom: 20px;
   }
 
-  .destaques {
+  .destaque-projetos {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 45px;
+    align-items: flex-start;
     justify-content: center;
 
-    h3 {
-      font-size: 25px;
-    }
+    .box-projeto {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 350px;
+      height: 370px;
+      background: $verde-sete;
+      border-radius: 30px;
+      padding: 0 3px;
+      overflow: hidden;
+      flex-grow: 1;
+      transition: 0.3s ease-in-out;
 
-    .destaque-projetos {
-      .link-projeto {
+      .nome-projeto {
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+        max-width: 80%;
+      }
+
+      h4 {
+        color: $verde-principal;
+        text-align: center;
+        font-size: 0.8rem;
+        max-width: 90%;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 5px;
+        z-index: 1;
+      }
+
+      p {
+        color: #fff;
+        max-height: 90px;
+        max-width: 90%;
+        text-align: center;
+        font-size: 15.5px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+        z-index: 1;
+      }
+
+      .btns-projeto {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 350px;
-        height: 370px;
-        position: relative;
-        background: $verde-sete;
-        border-radius: 30px;
-        overflow: hidden;
-        transition: 0.3s ease-in-out;
+        width: 70%;
+        gap: 10px;
+        margin-bottom: 10px;
 
-        .box-projeto {
+        .btn-link-site,
+        .btn-link-git {
           display: flex;
-          flex-direction: column;
           align-items: center;
-          padding: 0 2px;
-          flex-grow: 1;
-          flex-basis: 0;
-
-          .nome-projeto {
-            text-align: center;
-            color: #fff;
-            z-index: 1;
-          }
-
-          h4 {
-            color: $verde-principal;
-            text-align: center;
-            font-size: 0.8rem;
-            max-width: 90%;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            margin-top: 5px;
-            z-index: 1;
-          }
-
-          p {
-            color: #fff;
-            max-height: 90px;
-            max-width: 90%;
-            text-align: center;
-            font-size: 15.5px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            margin-top: auto;
-            margin-bottom: auto;
-            z-index: 1;
-          }
+          justify-content: center;
+          z-index: 1;
+          padding: 0 10px;
+          background-color: $verde-cinco;
+          font-size: 1.1rem;
+          box-shadow: none;
+          border-radius: 30px;
+          transition: 0.3s ease;
+        }
+        .btn-link-site:hover,
+        .btn-link-git:hover {
+          transform: scale(1.1);
+          box-shadow: 1px 1px 3px 1px #09090981;
         }
       }
-      .link-projeto::before {
-        content: "";
-        position: absolute;
-        background-color: #fff;
-        width: 450px;
-        height: 440px;
-        border-radius: 30px;
-        animation: 10s linear 0s infinite normal none running barra;
-      }
-      .link-projeto::after {
-        content: "";
-        position: absolute;
-        background: $verde-oito;
-        inset: 4px;
-        border-radius: 30px;
-      }
-      .link-projeto:hover {
-        background-color: $verde-principal;
-        transform: scale(1.03);
-      }
+    }
+    .box-projeto::before {
+      content: "";
+      position: absolute;
+      background-color: #fff;
+      width: 350px;
+      height: 375px;
+      border-radius: 30px;
+      animation: 10s linear 0s infinite normal none running barra;
+    }
+    .box-projeto::after {
+      content: "";
+      position: absolute;
+      background: $verde-oito;
+      inset: 3px;
+      border-radius: 30px;
+    }
+    .box-projeto:hover {
+      background-color: $verde-principal;
+      transform: scale(1.03);
     }
   }
 
-  .projetos,
-  .destaque-projetos {
+  .projetos {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -385,76 +403,100 @@
     align-items: flex-start;
     justify-content: center;
 
-    .link-projeto {
+    .box-projeto {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
       width: 350px;
       height: 370px;
       position: relative;
       background: $verde-sete;
+      flex-grow: 0;
+      flex-basis: 1;
       border-radius: 30px;
+      padding: 0 3px;
       overflow: hidden;
       transition: 0.3s ease-in-out;
 
-      .box-projeto {
+      .nome-projeto {
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+        max-width: 95%;
+      }
+
+      h4 {
+        color: $verde-principal;
+        text-align: center;
+        font-size: 0.8rem;
+        max-width: 90%;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 5px;
+        z-index: 1;
+      }
+
+      p {
+        color: #fff;
+        max-height: 90px;
+        max-width: 90%;
+        text-align: center;
+        font-size: 15.5px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+        z-index: 1;
+      }
+
+      .btns-projeto {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        padding: 0 2px;
-        flex-grow: 1;
-        flex-basis: 0;
+        justify-content: center;
+        width: 70%;
+        gap: 10px;
+        margin-bottom: 10px;
 
-        .nome-projeto {
-          text-align: center;
-          color: #fff;
+        .btn-link-site,
+        .btn-link-git {
+          display: flex;
+          align-items: center;
+          justify-content: center;
           z-index: 1;
+          gap: 3px;
+          padding: 0 10px;
+          background-color: $verde-cinco;
+          font-size: 1.1rem;
+          box-shadow: none;
+          border-radius: 30px;
+          transition: 0.3s ease;
         }
-
-        h4 {
-          color: $verde-principal;
-          text-align: center;
-          font-size: 0.8rem;
-          max-width: 90%;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
-          margin-top: 5px;
-          z-index: 1;
-        }
-
-        p {
-          color: #fff;
-          max-height: 90px;
-          max-width: 90%;
-          text-align: center;
-          font-size: 15.5px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
-          margin-top: auto;
-          margin-bottom: auto;
-          z-index: 1;
+        .btn-link-site:hover,
+        .btn-link-git:hover {
+          transform: scale(1.1);
+          box-shadow: 1px 1px 3px 1px #09090981;
         }
       }
     }
-    .link-projeto::before {
+    .box-projeto::before {
       content: "";
       position: absolute;
       background-color: #fff;
-      width: 450px;
-      height: 440px;
+      width: 350px;
+      height: 375px;
       border-radius: 30px;
       animation: 10s linear 0s infinite normal none running barra;
     }
-    .link-projeto::after {
+    .box-projeto::after {
       content: "";
       position: absolute;
       background: $verde-darkL;
       inset: 4px;
       border-radius: 30px;
     }
-    .link-projeto:hover {
+    .box-projeto:hover {
       background-color: $verde-principal;
       transform: scale(1.03);
     }

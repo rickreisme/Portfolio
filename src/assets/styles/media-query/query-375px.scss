@@ -1,7 +1,7 @@
 @media screen and (max-width: 375px) {
   @import "../vars.scss";
 
-  .link-projeto {
+  .box-projeto {
     max-width: 330px !important;
     min-height: 500px;
   }
@@ -12,14 +12,14 @@
         max-width: 300px !important;
         min-height: 300px;
 
-        .card-titulo h3{
+        .card-titulo h3 {
           font-size: 20px;
         }
 
-        .card-body{
+        .card-body {
           flex-direction: column;
 
-          .card-icon{
+          .card-icon {
             font-size: 3rem;
             margin-top: 5px;
           }
@@ -30,21 +30,25 @@
 
   .sociais {
     display: flex;
-    max-width: 70%;
+    max-width: 90% !important;
     border-radius: 30px;
     padding-bottom: 10px;
 
     h3 {
       font-size: 17px;
     }
+
+    .redes{
+      gap: 20px;
+    }
   }
 
-  footer{
+  footer {
     flex-direction: column;
     height: 100%;
     margin-bottom: 0px;
-    
-    h3{
+
+    h3 {
       font-size: 12px;
     }
   }

@@ -2,19 +2,18 @@
   @import "../vars.scss";
 
   .meus-projetos {
-    .destaques {
-      .destaque-projetos {
-        .link-projeto {
-          min-width: 330px !important;
-          min-height: 500px;
-        }
+    .destaque-projetos {
+      flex-direction: column !important;
+      .box-projeto {
+        min-width: 330px !important;
+        min-height: 400px;
       }
     }
 
     .projetos {
-      .link-projeto {
+      .box-projeto {
         min-width: 330px !important;
-        min-height: 500px;
+        min-height: 400px;
       }
     }
   }
@@ -43,12 +42,20 @@
 
   .sociais {
     display: flex;
-    max-width: 70%;
+    max-width: 85%;
     border-radius: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 
     h3 {
       font-size: 17px;
     }
+  }
+  .sociais::before {
+    border-radius: 30px;
+  }
+
+  .sociais::after {
+    inset: 3px;
+    border-radius: 30px;
   }
 }

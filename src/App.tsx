@@ -1,17 +1,16 @@
-import './assets/styles/global.scss'
-import Contato from './components/Contato.tsx'
-import Experiencia from './components/Experiencia.tsx'
-import Footer from './components/Footer.tsx'
-import Header from './components/Header.tsx'
-import Intro from './components/Intro.tsx'
-import Projetos from './components/Projetos.tsx'
-import Sobre from './components/Sobre.tsx'
+import "./assets/styles/global.scss";
+import Contato from "./sessions/Contato.tsx";
+import Experiencia from "./sessions/Experiencia.tsx";
+import Footer from "./sessions/Footer.tsx";
+import Header from "./sessions/Header.tsx";
+import Intro from "./sessions/Intro.tsx";
+import Projetos from "./sessions/Projetos.tsx";
+import Sobre from "./sessions/Sobre.tsx";
 
 function App() {
-
   return (
     <>
-      <div className="page-container" >
+      <div className="page-container">
         <Header />
 
         <main>
@@ -19,12 +18,12 @@ function App() {
           <Sobre />
           <Experiencia />
           <Projetos />
-          <Contato/>
-          <Footer/>
+          <Contato />
+          <Footer />
         </main>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
