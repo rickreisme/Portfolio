@@ -20,20 +20,21 @@ const Projetos = () => {
                 />
 
                 <BoxProjeto
+                    titulo="Página de Pagamento"
+                    descricao="Página de pagamento com validações de formulário e design mobile-fist."
+                    linkSite="https://desafio-front-end-woovi.vercel.app"
+                    linkRepo="https://github.com/rickreisme/DesafioFrontEndWoovi"
+                    tecnologias="Vite React - MUI - CSS in TS - Typescript - Figma -
+            Vitest"
+                />
+
+                <BoxProjeto
                     titulo="Gerenciador de Senhas"
                     descricao="Uma aplicação web que permite o cadastro, geração e
             o gerenciamento de senhas, notas e favoritos."
                     linkRepo="https://github.com/rickreisme/GerenciadorSenhas"
                     tecnologias="Vite React - Python - SASS - Javascript - Docker -
             PostgreSQL"
-                />
-
-                <BoxProjeto
-                    titulo="E++"
-                    descricao="Um app Android feito para ajudar no aprendizado de
-            programação utilizando a gamificação."
-                    linkRepo="https://github.com/rickreisme/Epp"
-                    tecnologias="Flutter - Firebase - Figma"
                 />
             </div>
 
@@ -48,6 +49,14 @@ const Projetos = () => {
                     linkRepo="https://github.com/rickreisme/ContactMVC"
                     tecnologias="ASP.NET - HTML - CSS - Javascript - Docker -
                             PostgreSQL"
+                />
+
+                <BoxProjeto
+                    titulo="E++"
+                    descricao="Um app Android feito para ajudar no aprendizado de
+            programação utilizando a gamificação."
+                    linkRepo="https://github.com/rickreisme/Epp"
+                    tecnologias="Flutter - Firebase - Figma"
                 />
 
                 <BoxProjeto

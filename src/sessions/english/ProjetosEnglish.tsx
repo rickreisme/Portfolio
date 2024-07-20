@@ -20,20 +20,21 @@ for a public college."
                 />
 
                 <BoxProjeto
+                    titulo="Payment Page"
+                    descricao="Payment page with form validation and mobile-fist design."
+                    linkSite="https://desafio-front-end-woovi.vercel.app"
+                    linkRepo="https://github.com/rickreisme/DesafioFrontEndWoovi"
+                    tecnologias="Vite React - MUI - CSS in TS - Typescript - Figma -
+            Vitest"
+                />
+
+                <BoxProjeto
                     titulo="Password Manager"
                     descricao="A web application that allows the registration, generation,
 and management of passwords, notes, and favorites."
                     linkRepo="https://github.com/rickreisme/GerenciadorSenhas"
                     tecnologias="Vite React - Python - SASS - Javascript - Docker -
 PostgreSQL"
-                />
-
-                <BoxProjeto
-                    titulo="E++"
-                    descricao="An Android app designed to help with programming learning
-using gamification."
-                    linkRepo="https://github.com/rickreisme/Epp"
-                    tecnologias="Flutter - Firebase - Figma"
                 />
             </div>
 
@@ -47,6 +48,14 @@ contact system connected with a database in Docker."
                     linkRepo="https://github.com/rickreisme/ContactMVC"
                     tecnologias="ASP.NET - HTML - CSS - Javascript - Docker -
 PostgreSQL"
+                />
+
+                <BoxProjeto
+                    titulo="E++"
+                    descricao="An Android app designed to help with programming learning
+using gamification."
+                    linkRepo="https://github.com/rickreisme/Epp"
+                    tecnologias="Flutter - Firebase - Figma"
                 />
 
                 <BoxProjeto
