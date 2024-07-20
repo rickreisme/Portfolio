@@ -8,7 +8,7 @@ const Projetos = () => {
                 &#123;rickreisme&#47;<span>projetos</span>&#125;
             </h2>
 
-            <h3>Destaques</h3>
+            <h3>Em destaque</h3>
 
             <div className="destaque-projetos">
                 <BoxProjeto
