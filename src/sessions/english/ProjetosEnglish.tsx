@@ -61,6 +61,7 @@ Japanese food delivery restaurant JapaCasa."
                     titulo="SpotifyClone"
                     descricao="Recreation of the Spotify Web landing page. Queries an
 API, searching for artists typed in the search bar."
+                    linkSite="https://rickreisme.github.io/SpotifyClone/"
                     linkRepo="https://github.com/rickreisme/SpotifyClone"
                     tecnologias="HTML - CSS - Javascript - Node.js - Json-Server"
                 />
@@ -84,6 +85,7 @@ API, searching for artists typed in the search bar."
                     titulo="Task List"
                     descricao="Web page that presents a task list allowing the addition
 of tasks and marking them as completed."
+                    linkSite="https://lista-de-tarefas-zeta-ivory.vercel.app"
                     linkRepo="https://github.com/rickreisme/ListaDeTarefas"
                     tecnologias="HTML - CSS - Javascript"
                 />

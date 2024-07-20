@@ -63,6 +63,7 @@ const Projetos = () => {
                     descricao=" Recriação da landing page do Spotify Web. Faz uma
                             consulta em uma api, buscando os artistas digitados
                             na barra de pesquisa."
+                    linkSite="https://rickreisme.github.io/SpotifyClone/"
                     linkRepo="https://github.com/rickreisme/SpotifyClone"
                     tecnologias="HTML - CSS - Javascript - Node.js - Json-Server"
                 />
@@ -87,6 +88,7 @@ const Projetos = () => {
                     titulo="Lista de Tarefas"
                     descricao="Página da web que apresenta uma lista de tarefas que
                             permite adicionar tasks e marcá-las como concluídas."
+                    linkSite="https://lista-de-tarefas-zeta-ivory.vercel.app"
                     linkRepo="https://github.com/rickreisme/ListaDeTarefas"
                     tecnologias="HTML - CSS - Javascript"
                 />
