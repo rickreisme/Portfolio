@@ -60,10 +60,10 @@ using gamification."
 
                 <BoxProjeto
                     titulo="JapaCasa!"
-                    descricao="Revamped version of the website for the fictional
-Japanese food delivery restaurant JapaCasa."
+                    descricao="Website for the fictional
+Japanese food delivery restaurant called 'JapaCasa!'."
                     linkRepo="https://github.com/rickreisme/JapaCasa"
-                    tecnologias="Vite React - SASS - REST API"
+                    tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
                 />
 
                 <BoxProjeto

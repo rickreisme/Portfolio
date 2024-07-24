@@ -64,7 +64,7 @@ const Projetos = () => {
                     descricao="Site de um restaurante fictício
                             de delivery de comida japonesa chamado 'JapaCasa!'."
                     linkRepo="https://github.com/rickreisme/JapaCasa"
-                    tecnologias="Vite React - SASS - API REST"
+                    tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
                 />
 
                 <BoxProjeto
