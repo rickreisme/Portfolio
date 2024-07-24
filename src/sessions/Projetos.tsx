@@ -78,11 +78,11 @@ const Projetos = () => {
                 />
 
                 <BoxProjeto
-                    titulo="API de comidas JapaCasa!"
-                    descricao="Uma API feita para servir os produtos para serem
-                            visualizados no site do 'JapaCasa!'."
-                    linkRepo="https://github.com/rickreisme/api-produtos-jpc"
-                    tecnologias="Node.js - Javascript - Json-Server"
+                    titulo="API de produtos JapaCasa!"
+                    descricao="Uma API feita para servir os produtos que são renderizados nos cards
+                            do site do 'JapaCasa!'."
+                    linkRepo="https://github.com/rickreisme/JapaCasaBack-End"
+                    tecnologias="Node.js - Javascript - Express"
                 />
 
                 <BoxProjeto

@@ -76,11 +76,11 @@ API, searching for artists typed in the search bar."
                 />
 
                 <BoxProjeto
-                    titulo="JapaCasa! Food API"
+                    titulo="JapaCasa! Products API"
                     descricao="An API made to serve the products to be displayed on the
 'JapaCasa!' website."
-                    linkRepo="https://github.com/rickreisme/api-produtos-jpc"
-                    tecnologias="Node.js - Javascript - Json-Server"
+                    linkRepo="https://github.com/rickreisme/JapaCasaBack-End"
+                    tecnologias="Node.js - Javascript - Express"
                 />
 
                 <BoxProjeto
