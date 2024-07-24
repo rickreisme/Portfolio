@@ -63,7 +63,7 @@ const Projetos = () => {
                     titulo="JapaCasa!"
                     descricao="Versão reformulada do site do restaurante fictício
                             de delivery de comida japonesa JapaCasa."
-                    linkRepo="https://github.com/rickreisme/JapaCasa3"
+                    linkRepo="https://github.com/rickreisme/JapaCasa"
                     tecnologias="Vite React - SASS - API REST"
                 />
 

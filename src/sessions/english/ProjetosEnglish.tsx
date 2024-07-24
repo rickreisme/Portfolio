@@ -62,7 +62,7 @@ using gamification."
                     titulo="JapaCasa!"
                     descricao="Revamped version of the website for the fictional
 Japanese food delivery restaurant JapaCasa."
-                    linkRepo="https://github.com/rickreisme/JapaCasa3"
+                    linkRepo="https://github.com/rickreisme/JapaCasa"
                     tecnologias="Vite React - SASS - REST API"
                 />
 
