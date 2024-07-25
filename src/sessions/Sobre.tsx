@@ -17,7 +17,7 @@ const Sobre = () => {
                         apaixonado pelo que faço! <br />
                         Graduado em Análise e Desenvolvimento de Sistemas, com
                         inglês avançado, tenho habilidades sólidas em HTML, CSS,
-                        JavaScript e React.js. Além disso, possuo um excelente
+                        JavaScript, TypeScript e React.js. Além disso, possuo um excelente
                         domínio em SQL (PostgreSQL, Oracle, SQL Server),
                         Flutter, Docker, API REST, Axios, Bootstrap, ASP.NET
                         Core, Python e Firebase. Tenho facilidade para resolver

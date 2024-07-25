@@ -17,7 +17,7 @@ const SobreEnglish = () => {
                         passionate about what I do! <br />
                         Graduated in Systems Analysis and Development, I'm an
                         advanced english speaker, I have solid expertise in
-                        HTML, CSS, JavaScript, and React.js. Additionally, I
+                        HTML, CSS, JavaScript, TypeScript and React.js. Additionally, I
                         have excellent command of SQL (PostgreSQL, Oracle, SQL
                         Server), Flutter, Docker, REST APIs, Axios, Bootstrap,
                         ASP.NET Core, Python and Firebase. I have the ability to
