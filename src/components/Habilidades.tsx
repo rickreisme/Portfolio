@@ -186,14 +186,6 @@ const Habilidades = () => {
                 Icon={VscVscode}
                 nome="VsCode"
             />
-
-            <HabilidadeCard
-                id="React"
-                className="btn2"
-                Icon={FaReact}
-                nome="React"
-                title="React Router, React Hooks, Context API"
-            />
         </div>
     );
 };
