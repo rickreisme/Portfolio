@@ -1,5 +1,5 @@
 import "../../assets/styles/intro-sobre.scss"
-import imgIntro from "../../assets/Imagens/rick-sobre.jpeg"
+import imgIntro from "../../assets/Imagens/rick-sobre1.jpeg"
 
 const IntroEnglish = () => {
     return (
