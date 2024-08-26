@@ -12,20 +12,20 @@ const ProjetosEnglish = () => {
 
             <div className="destaque-projetos">
                 <BoxProjeto
+                    titulo="JapaCasa!"
+                    descricao="Website for the fictional
+Japanese food delivery restaurant called 'JapaCasa!'."
+                    linkRepo="https://github.com/rickreisme/JapaCasa"
+                    linkSite="https://japacasa.vercel.app"
+                    tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
+                />
+
+                <BoxProjeto
                     titulo="Service Portal"
                     descricao="A modular web system that manages and provides services
 for a public college."
                     linkRepo="https://github.com/rickreisme/PortalServicos"
                     tecnologias="Vite React - Auth0 - REST API - SASS - Express"
-                />
-
-                <BoxProjeto
-                    titulo="Payment Page"
-                    descricao="Payment page with form validation and mobile-fist design."
-                    linkSite="https://desafio-front-end-woovi.vercel.app"
-                    linkRepo="https://github.com/rickreisme/DesafioFrontEndWoovi"
-                    tecnologias="Vite React - MUI - CSS in TS - Typescript - Figma -
-            Vitest"
                 />
 
                 <BoxProjeto
@@ -59,35 +59,12 @@ using gamification."
                 />
 
                 <BoxProjeto
-                    titulo="JapaCasa!"
-                    descricao="Website for the fictional
-Japanese food delivery restaurant called 'JapaCasa!'."
-                    linkRepo="https://github.com/rickreisme/JapaCasa"
-                    tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
-                />
-
-                <BoxProjeto
-                    titulo="SpotifyClone"
-                    descricao="Recreation of the Spotify Web landing page. Queries an
-API, searching for artists typed in the search bar."
-                    linkSite="https://rickreisme.github.io/SpotifyClone/"
-                    linkRepo="https://github.com/rickreisme/SpotifyClone"
-                    tecnologias="HTML - CSS - Javascript - Node.js - Json-Server"
-                />
-
-                <BoxProjeto
-                    titulo="JapaCasa! Products API"
-                    descricao="An API made to serve the products to be displayed on the
-'JapaCasa!' website."
-                    linkRepo="https://github.com/rickreisme/JapaCasaBack-End"
-                    tecnologias="Node.js - Javascript - Express"
-                />
-
-                <BoxProjeto
-                    titulo="SpotifyClone Artists API"
-                    descricao="An API made to be consumed in my SpotifyClone project."
-                    linkRepo="https://github.com/rickreisme/api-artists"
-                    tecnologias="Node.js - Javascript - Json-Server"
+                    titulo="Payment Page"
+                    descricao="Payment page with form validation and mobile-fist design."
+                    linkSite="https://desafio-front-end-woovi.vercel.app"
+                    linkRepo="https://github.com/rickreisme/DesafioFrontEndWoovi"
+                    tecnologias="Vite React - MUI - CSS in TS - Typescript - Figma -
+            Vitest"
                 />
 
                 <BoxProjeto

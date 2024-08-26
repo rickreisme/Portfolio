@@ -1,4 +1,4 @@
-import "../assets/styles/experiencia-projetos.scss";
+import "../assets/styles/habilidades-projetos.scss";
 import { FaPaintBrush } from "react-icons/fa";
 import { LuLayout } from "react-icons/lu";
 import Tecnologias from "../components/Tecnologias";
