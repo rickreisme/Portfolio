@@ -18,12 +18,11 @@ const SobreEnglish = () => {
                         Graduated in Systems Analysis and Development, I'm an
                         advanced english speaker, I have solid expertise in
                         React.js, HTML/CSS, Sass, JavaScript/TypeScript.
-                        Additionally, I have excellent command of SQL
-                        (PostgreSQL, Oracle, SQL Server), Flutter, Docker, REST
-                        API, Bootstrap, Firebase among others skills. I have the
-                        ability to solve problems and am a quick learner. I
-                        invite you to explore this portfolio to learn more about
-                        my experience and skills.
+                        Additionally, I have knowledge in SQL, Flutter, Docker,
+                        REST API, Bootstrap, Firebase among others skills. I
+                        have the ability to solve problems and am a quick
+                        learner. I invite you to explore this portfolio to learn
+                        more about my experience and skills.
                     </p>
 
                     <a

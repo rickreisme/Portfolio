@@ -1,6 +1,6 @@
 import "./assets/styles/global.scss";
 import Contato from "./sessions/Contato.tsx";
-import Experiencia from "./sessions/Experiencia.tsx";
+import Experiencia from "./sessions/Habilidades.tsx";
 import Footer from "./sessions/Footer.tsx";
 import Header from "./sessions/Header.tsx";
 import Intro from "./sessions/Intro.tsx";

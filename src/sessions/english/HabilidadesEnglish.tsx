@@ -1,18 +1,23 @@
 import "../../assets/styles/experiencia-projetos.scss";
 import { FaPaintBrush } from "react-icons/fa";
 import { LuLayout } from "react-icons/lu";
-import Habilidades from "../../components/Habilidades";
+import Habilidades from "../../components/Tecnologias";
+import Habilidades2 from "../../components/Tecnologias2";
 
 const ExperienciaEnglish = () => {
     return (
-        <div className="experiencia" id="experiencia">
+        <div className="experiencia" id="skills">
             <h2 className="tituloxp">
                 &#123;rickreisme&#47;<span>skills</span>&#125;
             </h2>
 
-            <h3>Tecnologies I use</h3>
+            <h3>Technologies I mostly use</h3>
 
             <Habilidades />
+
+            <h3>I also know</h3>
+
+            <Habilidades2 />
 
             <h3 className="diferenciais-titulo">Another skills </h3>
 

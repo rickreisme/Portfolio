@@ -1,5 +1,5 @@
 import "../../assets/styles/intro-sobre.scss"
-import imgIntro from "../../assets/Imagens/rick-sobre1.jpeg"
+import imgIntro from "../../assets/Imagens/rick-sobre3.png"
 
 const IntroEnglish = () => {
     return (
@@ -7,7 +7,7 @@ const IntroEnglish = () => {
             <div className='saudacao'>
                 <h1>Rick Reis</h1>
                 <p>Developer</p>
-                <h5>React.js | PostgreSQL | TypeScript | Node.js | Flutter</h5>
+                <h5>React | PostgreSQL | TypeScript | Node.js | Flutter</h5>
             </div>
 
             <div className='imagem-intro'>
