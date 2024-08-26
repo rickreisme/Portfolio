@@ -1,4 +1,4 @@
-import "../assets/styles/experiencia-projetos.scss";
+import "../assets/styles/habilidades-projetos.scss";
 import { useLocation } from "react-router-dom";
 import { RiExternalLinkFill } from "react-icons/ri";
 

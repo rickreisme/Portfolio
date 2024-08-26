@@ -1,4 +1,4 @@
-import "../assets/styles/experiencia-projetos.scss";
+import "../assets/styles/habilidades-projetos.scss";
 import BoxProjeto from "../components/BoxProjeto";
 
 const Projetos = () => {

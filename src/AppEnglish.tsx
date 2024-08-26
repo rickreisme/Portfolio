@@ -1,6 +1,6 @@
 import "./assets/styles/global.scss";
 import ContatoEnglish from "./sessions/english/ContatoEnglish..tsx";
-import ExperienciaEnglish from "./sessions/english/ExperienciaEnglish.tsx";
+import ExperienciaEnglish from "./sessions/english/HabilidadesEnglish.tsx";
 import FooterEnglish from "./sessions/english/FooterEnglish.tsx";
 import HeaderEnglish from "./sessions/english/HeaderEnglish.tsx";
 import IntroEnglish from "./sessions/english/IntroEnglish.tsx";

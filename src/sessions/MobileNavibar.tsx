@@ -73,7 +73,7 @@ const MobileNavbar: React.FC = () => {
           </li>
 
           <li>
-            <a href='#experiencia' id='link-pags'>
+            <a href='#habilidades' id='link-pags'>
               <span>&lt;habilidades/&gt;</span>
             </a>
           </li>
