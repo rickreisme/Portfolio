@@ -17,9 +17,6 @@
         font-weight: 700;
         line-height: normal;
         transition: 0.5s;
-        animation: desappear forwards;
-        animation-timeline: scroll();
-        animation-range: cover 0% cover 50%;
     }
 
     span {
@@ -151,15 +148,7 @@
                 z-index: 1;
             }
         }
-        .btn::before {
-            content: "";
-            position: absolute;
-            background-color: #4dff00;
-            width: 300px;
-            height: 40px;
-            border-radius: 30px;
-            animation: 6s linear 0s infinite normal none running barra;
-        }
+
         .btn::after {
             content: "";
             position: absolute;

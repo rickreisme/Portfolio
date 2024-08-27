@@ -78,15 +78,9 @@
                 padding-left: 10px;
             }
         }
-        .btn2::before {
-            content: "";
-            position: absolute;
-            background-color: #fff;
-            width: 200px;
-            height: 63px;
-            border-radius: 30px;
-            animation: 4s linear 0s infinite normal none running barra;
-        }
+
+
+        
         .btn2::after {
             content: "";
             position: absolute;
@@ -95,7 +89,6 @@
             border-radius: 30px;
         }
         .btn2:hover {
-            color: black;
             background: $verde-seis;
         }
 
@@ -130,15 +123,7 @@
                 z-index: 1;
             }
         }
-        .btn2b::before {
-            content: "";
-            position: absolute;
-            background-color: #fff;
-            width: 200px;
-            height: 63px;
-            border-radius: 30px;
-            animation: 4s linear 0s infinite normal none running barra;
-        }
+
         .btn2b::after {
             content: "";
             position: absolute;
@@ -147,7 +132,6 @@
             border-radius: 30px;
         }
         .btn2b:hover {
-            color: black;
             background: $verde-seis;
         }
 
@@ -182,15 +166,6 @@
                 z-index: 1;
             }
         }
-        .btn2o::before {
-            content: "";
-            position: absolute;
-            background-color: #fff;
-            width: 200px;
-            height: 63px;
-            border-radius: 30px;
-            animation: 4s linear 0s infinite normal none running barra;
-        }
         .btn2o::after {
             content: "";
             position: absolute;
@@ -199,7 +174,6 @@
             border-radius: 30px;
         }
         .btn2o:hover {
-            color: black;
             background: $verde-seis;
         }
     }
@@ -378,15 +352,6 @@
                 }
             }
         }
-        .box-projeto::before {
-            content: "";
-            position: absolute;
-            background-color: #fff;
-            width: 350px;
-            height: 375px;
-            border-radius: 30px;
-            animation: 10s linear 0s infinite normal none running barra;
-        }
         .box-projeto::after {
             content: "";
             position: absolute;
@@ -484,15 +449,6 @@
                     box-shadow: 1px 1px 3px 1px #09090981;
                 }
             }
-        }
-        .box-projeto::before {
-            content: "";
-            position: absolute;
-            background-color: #fff;
-            width: 350px;
-            height: 375px;
-            border-radius: 30px;
-            animation: 10s linear 0s infinite normal none running barra;
         }
         .box-projeto::after {
             content: "";
