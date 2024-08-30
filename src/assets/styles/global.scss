@@ -1,68 +1,68 @@
 @import "./vars.scss";
 
 :root {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-html{
-  scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-  height: 100%;
-  overflow-x: hidden;
-  background-image: url(../imagens//gradientBG.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(../imagens//gradientBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page-container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
-  transition: 0.3s;
-  text-decoration: none;
-  color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  appearance: none;
-  background-color: transparent;
-  color: white;
-  border: none;
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: inherit;
-  cursor: pointer;
-  outline: none;
-  text-decoration: none;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $verde-secundario;
-  border-radius: 6px;
+    background-color: $verde-secundario;
+    border-radius: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: transparent;
+    background-color: transparent;
 }

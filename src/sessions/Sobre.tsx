@@ -16,10 +16,10 @@ const Sobre = () => {
                         Olá, meu nome é Rickson Reis! Sou um desenvolvedor
                         apaixonado pelo que faço! <br />
                         Graduado em Análise e Desenvolvimento de Sistemas, com
-                        inglês avançado, tenho habilidades sólidas em React.js,
-                        HTML/CSS, Sass, JavaScript/TypeScript. Além disso,
-                        possuo um conhecimento em SQL, Flutter, Docker, API
-                        REST, Bootstrap, Firebase entre outras tecnologias.
+                        inglês avançado, tenho habilidades sólidas em React,
+                        HTML/CSS/JavaScript, Sass, TypeScript e Node.js. Além
+                        disso, possuo um conhecimento em SQL, Flutter, Docker,
+                        API REST, Bootstrap, Firebase entre outras tecnologias.
                         Tenho facilidade para resolver problemas e sou um
                         aprendiz rápido. Te convido a conhecer, nesse portfólio,
                         um pouco mais da minha experiência e habilidades.

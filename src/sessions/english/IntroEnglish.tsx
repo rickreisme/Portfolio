@@ -7,7 +7,7 @@ const IntroEnglish = () => {
             <div className="saudacao">
                 <h1>Rick Reis</h1>
                 <p>Developer</p>
-                <h5>React | PostgreSQL | TypeScript | Node.js | Flutter</h5>
+                <h5>React | TypeScript | Node.js | PostgreSQL</h5>
             </div>
 
             <div className="imagem-intro">
