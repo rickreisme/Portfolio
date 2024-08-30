@@ -51,7 +51,7 @@
             width: 180px;
             height: 53px;
             border-radius: 30px;
-            background: $verde-quaternario;
+            background: $verde-terciario;
             transition: $transicao-botao-hover;
             text-decoration: none;
             overflow: hidden;
@@ -77,17 +77,18 @@
                 text-align: center;
                 padding-left: 10px;
             }
-        }
 
-        .btn2::after {
-            content: "";
-            position: absolute;
-            background: $verde-oito;
-            inset: 3px;
-            border-radius: 30px;
-        }
-        .btn2:hover {
-            background: $verde-seis;
+            &::after {
+                content: "";
+                position: absolute;
+                background: $verde-seis;
+                inset: 4px;
+                border-radius: 30px;
+            }
+
+            &:hover {
+                background: $verde-darkL;
+            }
         }
 
         .btn2b {
@@ -99,7 +100,7 @@
             width: 180px;
             height: 53px;
             border-radius: 30px;
-            background: $verde-oito;
+            background: $verde-secundario;
             transition: $transicao-botao-hover;
             text-decoration: none;
             overflow: hidden;
@@ -120,59 +121,18 @@
                 font-size: 2.3rem;
                 z-index: 1;
             }
-        }
 
-        .btn2b::after {
-            content: "";
-            position: absolute;
-            background: $verde-sete;
-            inset: 3px;
-            border-radius: 30px;
-        }
-        .btn2b:hover {
-            background: $verde-seis;
-        }
-
-        .btn2o {
-            display: flex;
-            position: relative;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            width: 180px;
-            height: 53px;
-            border-radius: 30px;
-            background: $verde-nove;
-            transition: $transicao-botao-hover;
-            text-decoration: none;
-            overflow: hidden;
-
-            h2 {
-                z-index: 1;
-                font-size: 19px;
-
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                text-align: center;
-                padding-left: 10px;
+            &::after {
+                content: "";
+                position: absolute;
+                background: $verde-cinco;
+                inset: 4px;
+                border-radius: 30px;
             }
 
-            i {
-                display: flex;
-                font-size: 2.3rem;
-                z-index: 1;
+            &:hover {
+                background: $verde-darkL;
             }
-        }
-        .btn2o::after {
-            content: "";
-            position: absolute;
-            background: $verde-seis;
-            inset: 3px;
-            border-radius: 30px;
-        }
-        .btn2o:hover {
-            background: $verde-seis;
         }
     }
 
@@ -202,7 +162,7 @@
             flex-grow: 1;
             flex-basis: 0;
             transition: 0.3s ease-in-out;
-            box-shadow: 2px 7px 5px $verde-oito;
+            box-shadow: 2px 7px 1px $verde-oito;
 
             .card-titulo h3 {
                 font-weight: 600;

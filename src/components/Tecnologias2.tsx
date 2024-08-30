@@ -1,44 +1,36 @@
 import "../assets/styles/habilidades-projetos.scss";
 import HabilidadeCard from "./HabilidadeCard";
-import { FaDocker, FaPython, FaFigma } from "react-icons/fa";
+import { FaPython, FaFigma, FaVuejs } from "react-icons/fa";
 import {
     SiFlutter,
     SiOracle,
     SiMicrosoftsqlserver,
     SiCsharp,
-    SiAxios,
     SiDotnet,
+    SiCplusplus,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
-import { PiFileCppFill } from "react-icons/pi";
 
 const Tecnologias2 = () => {
     return (
         <div className="habilidades">
             <HabilidadeCard
                 id="Figma"
-                className="btn2o"
+                className="btn2b"
                 Icon={FaFigma}
                 nome="Figma"
             />
 
             <HabilidadeCard
-                id="Docker"
-                className="btn2b"
-                Icon={FaDocker}
-                nome="Docker"
-            />
-
-            <HabilidadeCard
                 id="Flutter"
-                className="btn2"
+                className="btn2b"
                 Icon={SiFlutter}
                 nome="Flutter"
             />
 
-<HabilidadeCard
+            <HabilidadeCard
                 id="Firebase"
-                className="btn2"
+                className="btn2b"
                 Icon={IoLogoFirebase}
                 nome="Firebase"
             />
@@ -58,10 +50,10 @@ const Tecnologias2 = () => {
             />
 
             <HabilidadeCard
-                id="Axios"
+                id="Cpp"
                 className="btn2b"
-                Icon={SiAxios}
-                nome="Axios"
+                Icon={SiCplusplus}
+                nome="C++"
             />
 
             <HabilidadeCard
@@ -69,6 +61,13 @@ const Tecnologias2 = () => {
                 className="btn2b"
                 Icon={SiMicrosoftsqlserver}
                 nome="SQL Server"
+            />
+
+            <HabilidadeCard
+                id="ue.js"
+                className="btn2b"
+                Icon={FaVuejs}
+                nome="Vue.js"
             />
 
             <HabilidadeCard
@@ -83,13 +82,6 @@ const Tecnologias2 = () => {
                 className="btn2b"
                 Icon={SiDotnet}
                 nome="ASP.NET"
-            />
-
-            <HabilidadeCard
-                id="Cpp"
-                className="btn2b"
-                Icon={PiFileCppFill}
-                nome="C++"
             />
         </div>
     );

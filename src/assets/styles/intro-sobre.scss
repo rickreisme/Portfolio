@@ -117,11 +117,10 @@
             align-items: center;
             justify-content: space-evenly;
             width: 250px;
-            height: 40px;
+            height: 50px;
             margin-top: 20px;
-            border-radius: 19.5px;
-            background: #187618;
-            box-shadow: 0px 4px 1px 0px #fff;
+            border-radius: 25px;
+            background: $verde-nove;
             cursor: pointer;
             transition: 0.3s ease-in-out;
             text-decoration: none;
@@ -135,30 +134,30 @@
 
             h2 {
                 color: #fff;
-                font-size: 18px;
+                font-size: 1.3rem;
                 font-style: normal;
                 font-weight: 500;
                 line-height: normal;
                 text-align: center;
-                transition: color 0.5s ease;
                 z-index: 1;
             }
 
             i {
                 z-index: 1;
             }
-        }
 
-        .btn::after {
-            content: "";
-            position: absolute;
-            background: $verde-quaternario;
-            inset: 3px;
-            border-radius: 30px;
-        }
-        .btn:hover {
-            background-color: $verde-cinco;
-            box-shadow: 0px 2px 1px 0px #fff;
+            &::after {
+                content: "";
+                position: absolute;
+                background: $verde-quaternario;
+                inset: 4px;
+                border-radius: 25px;
+            }
+
+            &:hover {
+                background-color: $verde-cinco;
+                box-shadow: 0px 2px 0px 0px #fff;
+            }
         }
     }
 }

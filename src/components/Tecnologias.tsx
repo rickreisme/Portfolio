@@ -1,6 +1,7 @@
 import "../assets/styles/habilidades-projetos.scss";
 import HabilidadeCard from "./HabilidadeCard";
 import {
+    FaDocker,
     FaHtml5,
     FaCss3Alt,
     FaJs,
@@ -10,10 +11,11 @@ import {
     FaNodeJs,
     FaBootstrap,
 } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiAxios } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbHttpGet } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
+import { TbBrandVite } from "react-icons/tb";
 import MaterialUI from "../assets/imagens/materialUI.svg";
 
 const Tecnologias = () => {
@@ -25,6 +27,14 @@ const Tecnologias = () => {
                 Icon={FaReact}
                 nome="React"
                 title="React Router, React Hooks, Context API"
+            />
+
+            <HabilidadeCard
+                id="Vite"
+                className="btn2"
+                Icon={TbBrandVite}
+                nome="Vite"
+                title="Vite"
             />
 
             <HabilidadeCard
@@ -57,9 +67,16 @@ const Tecnologias = () => {
 
             <HabilidadeCard
                 id="API"
-                className="btn2b"
+                className="btn2"
                 Icon={TbHttpGet}
                 nome="RESTful API"
+            />
+
+            <HabilidadeCard
+                id="Node"
+                className="btn2"
+                Icon={FaNodeJs}
+                nome="Node.js"
             />
 
             <HabilidadeCard
@@ -77,10 +94,10 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="Node"
+                id="Axios"
                 className="btn2b"
-                Icon={FaNodeJs}
-                nome="Node.js"
+                Icon={SiAxios}
+                nome="Axios"
             />
 
             <HabilidadeCard
@@ -92,21 +109,28 @@ const Tecnologias = () => {
 
             <HabilidadeCard
                 id="Postg"
-                className="btn2b"
+                className="btn2"
                 Icon={BiLogoPostgresql}
                 nome="PostgreSQL"
             />
 
             <HabilidadeCard
                 id="Git"
-                className="btn2b"
+                className="btn2"
                 Icon={FaGitAlt}
                 nome="Git/GitHub"
             />
 
             <HabilidadeCard
+                id="Docker"
+                className="btn2b"
+                Icon={FaDocker}
+                nome="Docker"
+            />
+
+            <HabilidadeCard
                 id="Vscode"
-                className="btn2o"
+                className="btn2"
                 Icon={VscVscode}
                 nome="VsCode"
             />
