@@ -21,20 +21,20 @@ const Projetos = () => {
                 />
 
                 <BoxProjeto
+                    titulo="CRUD Estudantes"
+                    descricao="Um sistema simples que permite adicionar, listar, editar e deletar informações de estudantes."
+                    linkRepo="https://github.com/rickreisme/CrudEstudantes"
+                    linkSite="https://crudestudantes.onrender.com"
+                    tecnologias="Vue.js - Node.js - Express - API REST - Bootstrap - Docker -
+PostgreSQL"
+                />
+
+                <BoxProjeto
                     titulo="Portal de Serviços"
                     descricao="Um sistema web modular que gerencia e disponibiliza
             serviços de uma faculdade pública."
                     linkRepo="https://github.com/rickreisme/PortalServicos"
                     tecnologias="Vite React - Auth0 - API REST - SASS - Express"
-                />
-
-                <BoxProjeto
-                    titulo="Gerenciador de Senhas"
-                    descricao="Uma aplicação web que permite o cadastro, geração e
-            o gerenciamento de senhas, notas e favoritos."
-                    linkRepo="https://github.com/rickreisme/GerenciadorSenhas"
-                    tecnologias="Vite React - Python - SASS - Javascript - Docker -
-            PostgreSQL"
                 />
             </div>
 
@@ -66,6 +66,15 @@ const Projetos = () => {
                     linkRepo="https://github.com/rickreisme/DesafioFrontEndWoovi"
                     tecnologias="Vite React - MUI - CSS in TS - Typescript - Figma -
             Vitest"
+                />
+
+                <BoxProjeto
+                    titulo="Gerenciador de Senhas"
+                    descricao="Uma aplicação web que permite o cadastro, geração e
+            o gerenciamento de senhas, notas e favoritos."
+                    linkRepo="https://github.com/rickreisme/GerenciadorSenhas"
+                    tecnologias="Vite React - Python - SASS - Javascript - Docker -
+            PostgreSQL"
                 />
 
                 <BoxProjeto

@@ -17,7 +17,16 @@ const ProjetosEnglish = () => {
 Japanese food delivery restaurant called 'JapaCasa!'."
                     linkRepo="https://github.com/rickreisme/JapaCasa"
                     linkSite="https://japacasa.vercel.app"
-                    tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
+                    tecnologias="Vite React - Bootstrap - SASS - REST API - Node.js - Express"
+                />
+
+                <BoxProjeto
+                    titulo="Students CRUD"
+                    descricao="A simple system that allows the user to add, list, edit and delete student information."
+                    linkRepo="https://github.com/rickreisme/CrudEstudantes"
+                    linkSite="https://crudestudantes.onrender.com"
+                    tecnologias="Vue.js - Node.js - Express - REST API - Bootstrap - Docker -
+PostgreSQL"
                 />
 
                 <BoxProjeto
@@ -26,15 +35,6 @@ Japanese food delivery restaurant called 'JapaCasa!'."
 for a public college."
                     linkRepo="https://github.com/rickreisme/PortalServicos"
                     tecnologias="Vite React - Auth0 - REST API - SASS - Express"
-                />
-
-                <BoxProjeto
-                    titulo="Password Manager"
-                    descricao="A web application that allows the registration, generation,
-and management of passwords, notes, and favorites."
-                    linkRepo="https://github.com/rickreisme/GerenciadorSenhas"
-                    tecnologias="Vite React - Python - SASS - Javascript - Docker -
-PostgreSQL"
                 />
             </div>
 
@@ -65,6 +65,15 @@ using gamification."
                     linkRepo="https://github.com/rickreisme/DesafioFrontEndWoovi"
                     tecnologias="Vite React - MUI - CSS in TS - Typescript - Figma -
             Vitest"
+                />
+
+                <BoxProjeto
+                    titulo="Password Manager"
+                    descricao="A web application that allows the registration, generation,
+and management of passwords, notes, and favorites."
+                    linkRepo="https://github.com/rickreisme/GerenciadorSenhas"
+                    tecnologias="Vite React - Python - SASS - Javascript - Docker -
+PostgreSQL"
                 />
 
                 <BoxProjeto
