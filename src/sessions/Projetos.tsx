@@ -13,8 +13,8 @@ const Projetos = () => {
             <div className="destaque-projetos">
                 <BoxProjeto
                     titulo="JapaCasa!"
-                    descricao="Site de um restaurante fictício
-                            de delivery de comida japonesa chamado 'JapaCasa!'."
+                    descricao="Um site de delivery para um restaurante de comida japonesa, 
+                    onde o usuário pode conferir o cardápio e adicionar produtos no carrinho."
                     linkRepo="https://github.com/rickreisme/JapaCasa"
                     linkSite="https://japacasa.vercel.app"
                     tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"

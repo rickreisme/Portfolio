@@ -12,7 +12,6 @@
 
   .menu,
   .content,
-  .intro,
   .sobre,
   .experiencia,
   .meus-projetos,
@@ -96,13 +95,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 130px;
+    padding: 130px 20px;
+    
     .saudacao {
       display: flex;
       flex-direction: column;
-      margin-left: 0%;
-      margin-right: 0%;
-      padding-top: 100px;
-      padding-bottom: 10px;
+      margin-bottom: 50px;
+   
       justify-content: center;
       align-items: center;
       h1 {
@@ -233,8 +233,7 @@
 
       .sociais {
         display: flex;
-        max-width: 90%;
-        border-radius: 30px;
+        max-width: 100%;
         padding-bottom: 10px;
 
         h3 {

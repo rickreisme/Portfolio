@@ -3,7 +3,7 @@ import { RiExternalLinkFill } from "react-icons/ri";
 
 const SobreEnglish = () => {
     return (
-        <div>
+        <div className="sobre-container">
             <div className="sobre" id="sobre">
                 <div className="sobre-titulo">
                     <h2 className="h2s">
@@ -13,26 +13,54 @@ const SobreEnglish = () => {
 
                 <div className="paragrafo">
                     <p>
-                        Hello, my name is Rickson Reis! I am a developer
-                        passionate about what I do! <br />
-                        Graduated in Systems Analysis and Development, I'm an
-                        advanced english speaker, I have solid expertise in
-                        React, HTML/CSS/JavaScript, Sass, TypeScript e Node.js.
-                        Additionally, I have knowledge in SQL, Flutter, Docker,
-                        REST API, Bootstrap, Firebase among others skills. I
-                        have the ability to solve problems and am a quick
-                        learner. I invite you to explore this portfolio to learn
-                        more about my experience and skills.
+                        I have always been very curious and passionate
+                        about technology and innovations. My first
+                        contact with programming languages was in a
+                        course I took when I was 13 or 14 years old,
+                        around the same time I also fell in love with
+                        design. But it was when I enrolled in the
+                        Systems Analysis and Development course at
+                        Faculdade de Tecnologia de Ribeirão Preto
+                        (Ribeirão Preto College of Technology) that I
+                        truly found my place in the world of
+                        programming and decided that this was what I
+                        wanted for my life. I consider myself a
+                        problem-solver with the ability to learn
+                        quickly, and I am constantly striving to
+                        improve.
                     </p>
 
-                    <a
-                        className="btn"
-                        href="https://drive.google.com/file/d/1l2M9wv8T3dlI6t6YFni10DVxrAKkfRBB/view?usp=drive_link"
-                        target="_blank"
-                    >
-                        <RiExternalLinkFill className="link-icon" />
-                        <h2>See my CV</h2>
-                    </a>
+                    <p>
+                        Today, as a graduate, I have accumulated
+                        knowledge and experience in development, with
+                        solid skills in React, HTML/CSS/JavaScript,
+                        Sass, TypeScript, and Node.js, along with
+                        relevant knowledge in SQL, Flutter, Docker,
+                        REST API, Bootstrap, Firebase, among other
+                        technologies. I invite you to explore my
+                        portfolio to learn more about my experience
+                        and skills.
+                    </p>
+
+                    <div className="btns-sobre">
+                        <a
+                            className="btn"
+                            href="https://drive.google.com/file/d/1l2M9wv8T3dlI6t6YFni10DVxrAKkfRBB/view?usp=drive_link"
+                            target="_blank"
+                        >
+                            <RiExternalLinkFill className="link-icon" />
+                            <h2>My CV</h2>
+                        </a>
+
+                        <a
+                            className="btn"
+                            href="mailto:ricksonreisamoroso@gmail.com"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <h2>Send an email</h2>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

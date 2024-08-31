@@ -24,11 +24,13 @@ const HabilidadeCard: React.FC<HabilidadeProps> = ({
                 </i>
             )}
             {iconUrl && !Icon && (
-                <img
-                    className="image-icon"
-                    src={iconUrl}
-                    alt={`${nome} logo`}
-                />
+                <i>
+                    <img
+                        className="image-icon"
+                        src={iconUrl}
+                        alt={`${nome} logo`}
+                    />
+                </i>
             )}
             <h2>{nome}</h2>
         </a>

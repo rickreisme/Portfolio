@@ -1,20 +1,43 @@
-@media screen and (min-width: 1343px) {
-  @import "../vars.scss";
+@media screen and (min-width: 1225px) {
+    @import "../vars.scss";
 
-  .sobre .paragrafo p{
-    max-width: 80%;
-  }
-
-  .menu .content {
-    #logo{
-      margin-left: 7%;
+    .menu .content {
+        #logo {
+            margin-left: 7%;
+        }
+        .paginas {
+            margin-right: 7%;
+        }
     }
-    .paginas {
-      margin-right: 7%;
-    }
-  }
 
-  .colunaC h3{
-    max-width: 60%;
-  }
+    .sobre .paragrafo p {
+        max-width: 80%;
+    }
+
+    .contato {
+        .colunaC {
+            flex-direction: row;
+            gap: 50px;
+
+            .content-contato {
+                align-items: center;
+                width: 50%;
+
+                .sociais{
+                  width: 90%;
+               
+                }
+            }
+
+            .content-form {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+
+                .form-contato {
+                   
+                }
+            }
+        }
+    }
 }

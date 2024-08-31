@@ -95,7 +95,7 @@ const Tecnologias = () => {
 
             <HabilidadeCard
                 id="Axios"
-                className="btn2b"
+                className="btn2"
                 Icon={SiAxios}
                 nome="Axios"
             />
@@ -123,7 +123,7 @@ const Tecnologias = () => {
 
             <HabilidadeCard
                 id="Docker"
-                className="btn2b"
+                className="btn2"
                 Icon={FaDocker}
                 nome="Docker"
             />

@@ -60,6 +60,7 @@
                 display: flex;
                 font-size: 2.3rem;
                 z-index: 1;
+                transition: .3s ease-in-out;
             }
 
             .image-icon {
@@ -84,10 +85,15 @@
                 background: $verde-seis;
                 inset: 4px;
                 border-radius: 30px;
+               
             }
 
             &:hover {
                 background: $verde-darkL;
+            }
+
+            &:hover i{
+                animation: spin 5s linear infinite;
             }
         }
 
@@ -118,8 +124,9 @@
 
             i {
                 display: flex;
-                font-size: 2.3rem;
+                font-size: 2.25rem;
                 z-index: 1;
+                transition: .3s ease-in-out;
             }
 
             &::after {
@@ -132,6 +139,10 @@
 
             &:hover {
                 background: $verde-darkL;
+            }
+
+            &:hover i{
+                animation: spin 5s linear infinite;
             }
         }
     }
@@ -187,10 +198,15 @@
                     color: white;
                 }
             }
-        }
-        .card:hover {
-            background: $verde-cinco;
-            box-shadow: 2px 5px 10px $verde-oito;
+
+            &:hover {
+                background: $verde-cinco;
+                box-shadow: 2px 5px 10px $verde-oito;
+            }
+
+            &:hover .card-body .card-icon{
+                animation: spin 3s linear infinite;
+            }
         }
     }
 }
