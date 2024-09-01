@@ -1,5 +1,6 @@
 import "../assets/styles/habilidades-projetos.scss";
 import BoxProjeto from "../components/BoxProjeto";
+import japacasa from "../assets/imagens/japacasa.png";
 
 const Projetos = () => {
     return (
@@ -12,6 +13,7 @@ const Projetos = () => {
 
             <div className="destaque-projetos">
                 <BoxProjeto
+                    // imagem={japacasa}
                     titulo="JapaCasa!"
                     descricao="Um site de delivery para um restaurante de comida japonesa, 
                     onde o usuário pode conferir o cardápio e adicionar produtos no carrinho."

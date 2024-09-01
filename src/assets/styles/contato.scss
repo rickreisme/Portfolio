@@ -87,7 +87,6 @@
         }
 
         .content-form {
-          
             .form-contato {
                 display: flex;
                 flex-direction: column;
@@ -100,18 +99,20 @@
                     color: black;
                     background-color: white;
                     font-size: 1rem;
+                    padding: 0 15px;
                 }
 
-                input{
-                  height: 50px;
+                input {
+                    height: 50px;
                 }
 
-                input::placeholder{
-                  padding: 0 10px;
+                textarea {
+                    padding: 15px 15px;
                 }
 
-                textarea::placeholder{
-                  padding: 15px 10px;
+                input::placeholder,
+                textarea::placeholder {
+                    color: rgb(38, 38, 38);
                 }
 
                 button {
