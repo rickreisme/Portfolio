@@ -1,90 +1,105 @@
 @media screen and (max-width: 400px) {
-  @import "../vars.scss";
+    @import "../vars.scss";
 
-  .sobre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
 
-    .paragrafro {
-      p {
-        font-size: 20px;
-      }
+        .paragrafro {
+            p {
+                font-size: 20px;
+            }
 
-      .btn {
-        max-width: 100%;
-      }
+            .btn {
+                max-width: 100%;
+            }
+        }
     }
-  }
 
-  .experiencia {
-    .diferenciais {
-      .card {
-        text-align: center;
-        width: 360px;
-      }
+    .experiencia {
+        .diferenciais {
+            .card {
+                text-align: center;
+                width: 360px;
+            }
+        }
     }
-  }
 
-  .meus-projetos {
-    .destaque-projetos {
-      .box-projeto {
-        min-width: 250px !important;
-        min-height: 350px;
-        padding-top: 0px;
-        padding: 0 10px !important;
+    .meus-projetos {
+        .destaque-projetos {
+            .box-projeto {
+                min-width: 250px !important;
+                min-height: 350px;
+                padding-top: 0px;
+                padding: 0 10px !important;
 
-        p {
-          font-size: 16px;
+                p {
+                    font-size: 16px;
+                }
+
+                .btns-projeto {
+                    .btn-link-site,
+                    .btn-link-git {
+                        font-size: 1.3rem;
+                    }
+                }
+
+                h4 {
+                    font-size: 12px;
+                }
+            }
         }
 
-        .btns-projeto {
-          .btn-link-site,
-          .btn-link-git {
-            font-size: 1.3rem;
-          }
-        }
+        .projetos {
+            .box-projeto {
+                padding: 0 10px !important;
+                min-width: 250px !important;
+                min-height: 350px;
+                padding-top: 0px;
 
-        h4 {
-          font-size: 12px;
+                p {
+                    font-size: 16px;
+                    padding-bottom: 5px;
+                }
+
+                h4 {
+                    font-size: 12px;
+                }
+            }
         }
-      }
     }
 
-    .projetos {
-      .box-projeto {
-        padding: 0 10px !important;
-        min-width: 250px !important;
-        min-height: 350px;
-        padding-top: 0px;
+    .sociais {
+        display: flex;
+        max-width: 100% !important;
+        border-radius: 30px;
 
-        p {
-          font-size: 16px;
-          padding-bottom: 5px;
+        h3 {
+            font-size: 17px;
         }
+    }
 
-        h4 {
-          font-size: 12px;
+    .contato {
+        .colunaC {
+            .content-contato {
+                align-items: center;
+
+                .sociais {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 295px;
+                }
+            }
         }
-      }
     }
-  }
 
-  .sociais {
-    display: flex;
-    max-width: 100% !important;
-    border-radius: 30px;
-
-    h3 {
-      font-size: 17px;
+    .footer {
+        h3 {
+            font-size: 12px;
+        }
     }
-  }
-
-  .footer {
-    h3 {
-      font-size: 12px;
-    }
-  }
 }

@@ -29,6 +29,7 @@
         .content-contato {
             display: flex;
             flex-direction: column;
+        
 
             h3 {
                 color: #fff;
@@ -100,6 +101,7 @@
                     background-color: white;
                     font-size: 1rem;
                     padding: 0 15px;
+                    box-sizing: border-box;
                 }
 
                 input {

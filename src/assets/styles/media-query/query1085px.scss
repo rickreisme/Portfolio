@@ -26,12 +26,12 @@
 
     .paginas {
         position: absolute;
-        top: 8.2vh;
+        top: 7.2vh;
         right: 0;
         margin-left: 0;
         margin-right: 0;
-        width: 50vh;
-        height: 65vh;
+        width: 100vh;
+        height: 75vh;
         border-bottom-left-radius: 20px;
         background-color: $bg-menu;
         flex-direction: column;
@@ -52,20 +52,22 @@
     }
 
     header span {
-        font-size: 20px;
+        font-size: 22px;
     }
 
-    .intro{
-      gap: 20px;
-      
-    .imagem-intro img {
-      display: flex;
-      width: 270px;
-      height: 270px;
-  }
-      
-    }
+    .intro {
+        gap: 20px;
 
+        .imagem-intro img {
+            display: flex;
+            width: 270px;
+            height: 270px;
+        }
+
+        .saudacao {
+            padding: 15px;
+        }
+    }
 
     .sobre-container {
         .sobre {
@@ -114,70 +116,60 @@
         animation-timeline: none;
         animation-range: none;
 
-        .destaque-projetos {
+        .box-projeto {
+            min-width: 460px;
+            height: 620px;
+            padding-top: 20px;
+            margin-bottom: 25px;
+            display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0;
 
-            .box-projeto {
-                min-width: 460px;
-                height: 260px;
-                padding-top: 20px;
-                margin-bottom: 25px;
+            p {
+                margin-bottom: none;
+            }
+
+            .img-projeto {
+                z-index: 1;
                 display: flex;
-                justify-content: center;
                 align-items: center;
-                margin-left: 0;
+                justify-content: center;
+                width: auto;
+                height: auto;
+                border-radius: 20px;
+                margin-top: 20px;
+                background-color: transparent;
 
-                h3 {
-                    font-size: 16px;
-                }
+                img {
+                    width: 85%;
+                    height: auto;
+                    object-fit: cover;
+                    transition: 0.3s ease-in-out;
 
-                p {
-                    margin-top: 0 !important;
-                    font-size: 16px;
-                }
-
-                .btns-projeto {
-                    .btn-link-site,
-                    .btn-link-git {
-                        font-size: 1.3rem;
+                    &:hover {
+                        transform: none;
                     }
                 }
-
-                h4 {
-                    margin-top: 20px;
-                    font-size: 14px;
-                }
             }
 
-            .btn5 {
-                padding-bottom: 0;
-                margin-top: -30px;
-            }
-        }
-
-        .projetos {
-            .box-projeto {
-                min-width: 460px;
-                height: 260px;
-                padding-top: 20px;
-                margin-bottom: 25px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-left: 0;
+            .detalhes-projeto {
+                width: 90%;
 
                 .nome-projeto {
-                    font-size: 30px;
-                }
-
-                h3 {
-                    font-size: 16px;
+                    font-size: 1.65rem;
                 }
 
                 p {
-                    margin-top: 0 !important;
-                    font-size: 18px;
+                    font-size: 1.2rem;
+                    max-height: 110px;
                 }
+
+                h4 {
+                  color: $verde-principal;
+                  font-size: 0.9rem;
+              }
 
                 .btns-projeto {
                     .btn-link-site,
@@ -185,16 +177,6 @@
                         font-size: 1.3rem;
                     }
                 }
-
-                h4 {
-                    margin-top: 20px;
-                    font-size: 14px;
-                }
-            }
-
-            .btn5 {
-                padding-bottom: 0;
-                margin-top: -30px;
             }
         }
     }
@@ -202,6 +184,8 @@
     .contato {
         .colunaC {
             .content-contato {
+                align-items: center;
+
                 .estou {
                     max-width: 100% !important;
                 }
@@ -219,8 +203,20 @@
             .content-form {
                 width: 100%;
                 margin-top: 40px;
+                display: flex;
+                justify-content: center;
 
                 .form-contato {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 400px;
+
+                    input,
+                    textarea {
+                        width: 100%;
+                        margin: 0;
+                    }
+
                     button {
                         align-self: center;
                     }

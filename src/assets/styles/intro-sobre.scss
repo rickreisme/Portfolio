@@ -6,8 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 210px;
-    padding: 50px 100px;
+    padding: 210px 100px;
 
     h1 {
         color: $verde-principal;
@@ -25,11 +24,16 @@
 
     .saudacao {
         position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: $verde-darkL;
         padding: 20px 40px;
         animation: desappear2 forwards;
         animation-timeline: scroll();
         border-radius: 20px;
+        box-sizing: border-box;
 
         h1 {
             margin: 0;

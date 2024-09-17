@@ -1,10 +1,16 @@
 import "../assets/styles/intro-sobre.scss";
 import { RiExternalLinkFill } from "react-icons/ri";
+import { motion } from "framer-motion";
 
 const Sobre = () => {
     return (
         <div className="sobre-container" id="sobre">
-            <div className="sobre">
+            <motion.div
+                className="sobre"
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.1, duration: 0.3 }}
+            >
                 <div className="sobre-titulo">
                     <h2 className="h2s">
                         &#123;rickreisme&#47;<span>sobre</span>&#125;
@@ -14,19 +20,15 @@ const Sobre = () => {
                 <div className="paragrafo">
                     <p>
                         Sempre fui muito curioso e apaixonado por
-                        tecnologia e inovações. Tive o meu primeiro
-                        contato com linguagens de programação em um
-                        curso que fiz aos 13/14 anos, que foi a mesma
-                        época em que eu me apaixonei também por
-                        design. Mas foi quando eu entrei para o curso
-                        de Análise e Desenvolvimento de Sistemas na
-                        Faculdade de Tecnologia de Ribeirão Preto, que
-                        eu me encontrei de vez nesse mundo da
-                        programação e defini que era isso o que eu
-                        queria para a minha vida. Me considero uma
-                        pessoa com facilidade para resolver problemas
-                        e um aprendiz rápido que está constantemente
-                        buscando se aprimorar.
+                        tecnologia e inovações, mas foi durante a
+                        minha graduação em Análise e Desenvolvimento
+                        de Sistemas pela Faculdade de Tecnologia de
+                        Ribeirão Preto, que eu me encontrei de vez
+                        nesse mundo da programação e defini que era
+                        isso o que eu queria para a minha vida. Me
+                        considero uma pessoa com facilidade para
+                        resolver problemas e um aprendiz rápido que
+                        está constantemente buscando se aprimorar.
                     </p>
 
                     <p>
@@ -62,7 +64,7 @@ const Sobre = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     );
 };

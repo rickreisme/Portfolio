@@ -14,17 +14,13 @@ const SobreEnglish = () => {
                 <div className="paragrafo">
                     <p>
                         I have always been very curious and passionate
-                        about technology and innovations. My first
-                        contact with programming languages was in a
-                        course I took when I was 13 or 14 years old,
-                        around the same time I also fell in love with
-                        design. But it was when I enrolled in the
-                        Systems Analysis and Development course at
-                        Faculdade de Tecnologia de Ribeirão Preto
-                        (Ribeirão Preto College of Technology) that I
-                        truly found my place in the world of
-                        programming and decided that this was what I
-                        wanted for my life. I consider myself a
+                        about technology and innovations, but it was
+                        during my Systems Analysis and
+                        Development graduation at Faculdade de Tecnologia
+                        de Ribeirão Preto (Ribeirão Preto College of
+                        Technology) that I truly found my place in the
+                        world of programming and decided that this was
+                        what I wanted for my life. I consider myself a
                         problem-solver with the ability to learn
                         quickly, and I am constantly striving to
                         improve.

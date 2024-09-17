@@ -92,10 +92,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
-      #link-pags {
-        margin-left: 18px;
-      }
+      gap: 15px;
 
       .btn-language {
         color: $verde-secundario;

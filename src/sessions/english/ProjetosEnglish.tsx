@@ -1,5 +1,13 @@
 import "../../assets/styles/habilidades-projetos.scss";
 import BoxProjeto from "../../components/BoxProjeto";
+import japacasa from "../../assets/imagens/japacasa.png";
+import crudEstudantes from "../../assets/imagens/crudEstudantes.png";
+import portalServicos from "../../assets/imagens/portalservicos.png";
+import epp from "../../assets/imagens/epp.png";
+import pagamento from "../../assets/imagens/pagamento.png";
+import gerSenhas from "../../assets/imagens/senha.png";
+import tarefas from "../../assets/imagens/tarefas.png";
+import imc from "../../assets/imagens/imc.png";
 
 const ProjetosEnglish = () => {
     return (
@@ -12,6 +20,7 @@ const ProjetosEnglish = () => {
 
             <div className="destaque-projetos">
                 <BoxProjeto
+                    imagem={japacasa}
                     titulo="JapaCasa!"
                     descricao="Website for the fictional
 Japanese food delivery restaurant called 'JapaCasa!'."
@@ -21,6 +30,7 @@ Japanese food delivery restaurant called 'JapaCasa!'."
                 />
 
                 <BoxProjeto
+                    imagem={crudEstudantes}
                     titulo="Students CRUD"
                     descricao="A simple system that allows the user to add, list, edit and delete student information."
                     linkRepo="https://github.com/rickreisme/CrudEstudantes"
@@ -30,6 +40,7 @@ PostgreSQL"
                 />
 
                 <BoxProjeto
+                    imagem={portalServicos}
                     titulo="Service Portal"
                     descricao="A modular web system that manages and provides services
 for a public college."
@@ -51,6 +62,7 @@ PostgreSQL"
                 />
 
                 <BoxProjeto
+                    imagem={epp}
                     titulo="E++"
                     descricao="An Android app designed to help with programming learning
 using gamification."
@@ -59,6 +71,7 @@ using gamification."
                 />
 
                 <BoxProjeto
+                    imagem={pagamento}
                     titulo="Payment Page"
                     descricao="Payment page with form validation and mobile-fist design."
                     linkSite="https://desafio-front-end-woovi.vercel.app"
@@ -68,6 +81,7 @@ using gamification."
                 />
 
                 <BoxProjeto
+                    imagem={gerSenhas}
                     titulo="Password Manager"
                     descricao="A web application that allows the registration, generation,
 and management of passwords, notes, and favorites."
@@ -77,6 +91,7 @@ PostgreSQL"
                 />
 
                 <BoxProjeto
+                    imagem={tarefas}
                     titulo="Task List"
                     descricao="Web page that presents a task list allowing the addition
 of tasks and marking them as completed."
@@ -86,52 +101,13 @@ of tasks and marking them as completed."
                 />
 
                 <BoxProjeto
-                    titulo="Fatec Clone"
-                    descricao="A clone and redesign of the website of the Technology
-College of Ribeirão Preto."
-                    linkRepo="https://github.com/rickreisme/FatecClone"
-                    tecnologias="HTML - CSS - Javascript"
-                />
-
-                <BoxProjeto
+                    imagem={imc}
                     titulo="BMI Calculator"
                     descricao="Website that calculates the body mass index and returns
 the weight range in which it is located."
                     linkSite="https://rickreisme.github.io/CalculaIMC/"
                     linkRepo="https://github.com/rickreisme/CalculaIMC"
                     tecnologias="HTML - CSS - Javascript"
-                />
-
-                <BoxProjeto
-                    titulo="LoginForm DarkLight"
-                    descricao="Generic page with a login form with an option for dark
-mode theme."
-                    linkSite="https://rickreisme.github.io/LoginFormDarkLight/"
-                    linkRepo="https://github.com/rickreisme/LoginFormDarkLight"
-                    tecnologias="HTML - CSS - Javascript"
-                />
-
-                <BoxProjeto
-                    titulo="Vending Machine"
-                    descricao="Simulator of the functioning of a vending machine in the
-C++ terminal environment."
-                    linkRepo="https://github.com/rickreisme/VendingMachine"
-                    tecnologias="C++"
-                />
-
-                <BoxProjeto
-                    titulo="Dog Life"
-                    descricao="Three screens of a fictional app that works as a social
-network for dog owners."
-                    linkRepo="https://github.com/rickreisme/DogLife"
-                    tecnologias="Flutter - Dart"
-                />
-
-                <BoxProjeto
-                    titulo="Landing page with carousel"
-                    descricao="A landing page for a generic company that displays
-photos in a carousel and some information."
-                    tecnologias="Vite React - HTML - CSS - Javascript"
                 />
             </div>
 
