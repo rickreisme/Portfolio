@@ -51,6 +51,10 @@
         }
     }
 
+    .paginas.active{
+        background-color: $verde-dark-bg;
+    }
+
     header span {
         font-size: 22px;
     }
