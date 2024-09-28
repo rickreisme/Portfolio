@@ -19,29 +19,18 @@ const Sobre = () => {
 
                 <div className="paragrafo">
                     <p>
-                        Sempre fui muito curioso e apaixonado por
-                        tecnologia e inovações, mas foi durante a
-                        minha graduação em Análise e Desenvolvimento
-                        de Sistemas pela Faculdade de Tecnologia de
-                        Ribeirão Preto, que eu me encontrei de vez
-                        nesse mundo da programação e defini que era
-                        isso o que eu queria para a minha vida. Me
-                        considero uma pessoa com facilidade para
+                        Me considero uma pessoa com facilidade para
                         resolver problemas e um aprendiz rápido que
                         está constantemente buscando se aprimorar.
                     </p>
 
                     <p>
-                        Hoje, já graduado acumulo conhecimento e
-                        experiência em desenvolvimento, tendo
-                        habilidades sólidas em React,
-                        HTML/CSS/JavaScript, Sass, TypeScript e
+                        Acumulo conhecimento e experiência em
+                        desenvolvimento, com habilidades sólidas em
+                        React, HTML/CSS/, JavaScript/TypeScript, Sass e
                         Node.js somadas a um conhecimento relevante em
-                        SQL, Flutter, Docker, API REST, Bootstrap,
-                        Firebase entre outras tecnologias. <br />
-                        Te convido a conhecer, aqui no meu portfólio,
-                        um pouco mais da minha experiência e
-                        habilidades.
+                        SQL, PHP, Flutter, Docker, API REST,
+                        Bootstrap, Firebase entre outras tecnologias.
                     </p>
 
                     <div className="btns-sobre">

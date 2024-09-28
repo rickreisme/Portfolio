@@ -94,7 +94,7 @@ PostgreSQL"
                 <BoxProjeto
                     imagem={tarefas}
                     titulo="Lista de Tarefas"
-                    descricao="Página da web que apresenta uma lista de tarefas que
+                    descricao="Página que apresenta uma lista de tarefas que
                             permite adicionar tasks e marcá-las como concluídas."
                     linkSite="https://lista-de-tarefas-zeta-ivory.vercel.app"
                     linkRepo="https://github.com/rickreisme/ListaDeTarefas"

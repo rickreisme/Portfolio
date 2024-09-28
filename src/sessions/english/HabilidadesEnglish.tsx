@@ -11,11 +11,7 @@ const ExperienciaEnglish = () => {
                 &#123;rickreisme&#47;<span>skills</span>&#125;
             </h2>
 
-            <h3>Technologies I mostly use</h3>
-
-            <Habilidades />
-
-            <h3>I also know</h3>
+            <Habilidades /> <br />
 
             <Habilidades2 />
 

@@ -1,6 +1,6 @@
 import "../assets/styles/habilidades-projetos.scss";
 import HabilidadeCard from "./HabilidadeCard";
-import { FaPython, FaFigma, FaVuejs } from "react-icons/fa";
+import { FaPython, FaFigma } from "react-icons/fa";
 import {
     SiFlutter,
     SiOracle,
@@ -8,6 +8,7 @@ import {
     SiCsharp,
     SiDotnet,
     SiCplusplus,
+    SiMysql,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 
@@ -50,6 +51,13 @@ const Tecnologias2 = () => {
             />
 
             <HabilidadeCard
+                id="MySQL"
+                className="btn2b"
+                Icon={SiMysql}
+                nome="MySQL"
+            />
+
+            <HabilidadeCard
                 id="Cpp"
                 className="btn2b"
                 Icon={SiCplusplus}
@@ -61,13 +69,6 @@ const Tecnologias2 = () => {
                 className="btn2b"
                 Icon={SiMicrosoftsqlserver}
                 nome="SQL Server"
-            />
-
-            <HabilidadeCard
-                id="ue.js"
-                className="btn2b"
-                Icon={FaVuejs}
-                nome="Vue.js"
             />
 
             <HabilidadeCard

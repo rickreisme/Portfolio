@@ -10,11 +10,12 @@ import {
     FaSass,
     FaNodeJs,
     FaBootstrap,
+    FaVuejs,
+    FaPhp
 } from "react-icons/fa";
 import { SiTypescript, SiAxios } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbHttpGet } from "react-icons/tb";
-import { VscVscode } from "react-icons/vsc";
 import { TbBrandVite } from "react-icons/tb";
 import MaterialUI from "../assets/imagens/materialUI.svg";
 
@@ -108,10 +109,24 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
+                id="Vue.js"
+                className="btn2b"
+                Icon={FaVuejs}
+                nome="Vue.js"
+            />
+
+            <HabilidadeCard
                 id="Postg"
                 className="btn2"
                 Icon={BiLogoPostgresql}
                 nome="PostgreSQL"
+            />
+
+            <HabilidadeCard
+                id="Php"
+                className="btn2"
+                Icon={FaPhp}
+                nome="PHP"
             />
 
             <HabilidadeCard
@@ -126,13 +141,6 @@ const Tecnologias = () => {
                 className="btn2"
                 Icon={FaDocker}
                 nome="Docker"
-            />
-
-            <HabilidadeCard
-                id="Vscode"
-                className="btn2"
-                Icon={VscVscode}
-                nome="VsCode"
             />
         </div>
     );

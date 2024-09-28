@@ -13,29 +13,18 @@ const SobreEnglish = () => {
 
                 <div className="paragrafo">
                     <p>
-                        I have always been very curious and passionate
-                        about technology and innovations, but it was
-                        during my Systems Analysis and
-                        Development graduation at Faculdade de Tecnologia
-                        de Ribeirão Preto (Ribeirão Preto College of
-                        Technology) that I truly found my place in the
-                        world of programming and decided that this was
-                        what I wanted for my life. I consider myself a
-                        problem-solver with the ability to learn
-                        quickly, and I am constantly striving to
-                        improve.
+                        I consider myself a problem-solver with the
+                        ability to learn quickly, and I am constantly
+                        striving to improve.
                     </p>
 
                     <p>
-                        Today, as a graduate, I have accumulated
-                        knowledge and experience in development, with
-                        solid skills in React, HTML/CSS/JavaScript,
-                        Sass, TypeScript, and Node.js, along with
-                        relevant knowledge in SQL, Flutter, Docker,
-                        REST API, Bootstrap, Firebase, among other
-                        technologies. I invite you to explore my
-                        portfolio to learn more about my experience
-                        and skills.
+                        I have accumulated knowledge and experience in
+                        development, with solid skills in React,
+                        HTML/CSS/, JavaScript/TypeScript, Sass, and
+                        Node.js, along with relevant knowledge in SQL,
+                        PHP, Flutter, Docker, REST API, Bootstrap,
+                        Firebase, among other technologies.
                     </p>
 
                     <div className="btns-sobre">

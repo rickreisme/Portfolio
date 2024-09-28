@@ -17,7 +17,7 @@ const HabilidadeCard: React.FC<HabilidadeProps> = ({
     nome,
 }) => {
     return (
-        <a id={id} className={className}>
+        <a id={id} className={className} title={nome}>
             {Icon && (
                 <i>
                     <Icon />
