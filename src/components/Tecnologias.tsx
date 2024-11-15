@@ -11,7 +11,7 @@ import {
     FaNodeJs,
     FaBootstrap,
     FaVuejs,
-    FaPhp
+    FaPhp,
 } from "react-icons/fa";
 import { SiTypescript, SiAxios } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -53,14 +53,14 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="JS"
+                id="JavaScript"
                 className="btn2"
                 Icon={FaJs}
                 nome="JavaScript"
             />
 
             <HabilidadeCard
-                id="TS"
+                id="TypeScript"
                 className="btn2"
                 Icon={SiTypescript}
                 nome="TypeScript"
@@ -81,7 +81,7 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="Sass"
+                id="SCSS"
                 className="btn2"
                 Icon={FaSass}
                 nome="SCSS"
@@ -95,35 +95,21 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="Axios"
-                className="btn2"
-                Icon={SiAxios}
-                nome="Axios"
-            />
-
-            <HabilidadeCard
-                id="MatUI"
-                className="btn2"
-                iconUrl={MaterialUI}
-                nome="MaterialUI"
-            />
-
-            <HabilidadeCard
-                id="Vue.js"
+                id="Vue"
                 className="btn2b"
                 Icon={FaVuejs}
-                nome="Vue.js"
+                nome="Vue"
             />
 
             <HabilidadeCard
-                id="Postg"
+                id="PostgreSQL"
                 className="btn2"
                 Icon={BiLogoPostgresql}
                 nome="PostgreSQL"
             />
 
             <HabilidadeCard
-                id="Php"
+                id="PHP"
                 className="btn2"
                 Icon={FaPhp}
                 nome="PHP"
@@ -134,6 +120,20 @@ const Tecnologias = () => {
                 className="btn2"
                 Icon={FaGitAlt}
                 nome="Git/GitHub"
+            />
+
+            <HabilidadeCard
+                id="Axios"
+                className="btn2"
+                Icon={SiAxios}
+                nome="Axios"
+            />
+
+            <HabilidadeCard
+                id="MaterialUI"
+                className="btn2"
+                iconUrl={MaterialUI}
+                nome="MaterialUI"
             />
 
             <HabilidadeCard

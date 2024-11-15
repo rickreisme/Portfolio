@@ -1,8 +1,8 @@
 import "../assets/styles/habilidades-projetos.scss";
-import { FaPaintBrush } from "react-icons/fa";
-import { LuLayout } from "react-icons/lu";
+
 import Tecnologias from "../components/Tecnologias";
 import Tecnologias2 from "../components/Tecnologias2";
+import OutrasHabilidades from "../components/OutrasHabilidades";
 
 const Experiencia = () => {
     return (
@@ -15,27 +15,7 @@ const Experiencia = () => {
             <h3 className="diferenciais-titulo">
                 Outras habilidades
             </h3>
-            <div className="diferenciais">
-                <div className="card">
-                    <div className="card-body">
-                        <FaPaintBrush className="card-icon" />
-
-                        <div className="card-titulo">
-                            <h3>Noções de design</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card">
-                    <div className="card-body">
-                        <LuLayout className="card-icon" />
-
-                        <div className="card-titulo">
-                            <h3>Noções de UI/UX</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <OutrasHabilidades />
         </div>
     );
 };

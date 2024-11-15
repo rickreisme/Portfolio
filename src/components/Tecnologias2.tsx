@@ -9,12 +9,20 @@ import {
     SiDotnet,
     SiCplusplus,
     SiMysql,
+    SiAzuredevops,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 
 const Tecnologias2 = () => {
     return (
         <div className="habilidades">
+            <HabilidadeCard
+                id="Azure DevOps"
+                className="btn2b"
+                Icon={SiAzuredevops}
+                nome="DevOps"
+             />
+
             <HabilidadeCard
                 id="Figma"
                 className="btn2b"
@@ -58,14 +66,14 @@ const Tecnologias2 = () => {
             />
 
             <HabilidadeCard
-                id="Cpp"
+                id="C++"
                 className="btn2b"
                 Icon={SiCplusplus}
                 nome="C++"
             />
 
             <HabilidadeCard
-                id="SqlSrv"
+                id="SQL Server"
                 className="btn2b"
                 Icon={SiMicrosoftsqlserver}
                 nome="SQL Server"
@@ -79,7 +87,7 @@ const Tecnologias2 = () => {
             />
 
             <HabilidadeCard
-                id="ASP"
+                id="ASP.NET"
                 className="btn2b"
                 Icon={SiDotnet}
                 nome="ASP.NET"
